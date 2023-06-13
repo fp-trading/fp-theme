@@ -557,17 +557,77 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 64
+      }
+    },
+    "9b65606d-6308-4282-bf63-f524d84c19cc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18026029941000__9b65606d-6308-4282-bf63-f524d84c19cc-168666245956cf7208-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kontakt",
+            "heading_size": "h1"
+          }
+        },
+        "template--18026029941000__9b65606d-6308-4282-bf63-f524d84c19cc-168666245956cf7208-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sie haben eine Frage zu einem Produkt, brauchen Beratung oder haben Interesse an einem individuellen Angebot? Dann screiben Sie uns. Wir antworten auf jede Nachricht innerhalb eines Werktages.<\/p><p>Nutzen Sie unser Kontaktformular oder schreiben uns eine E-Mail an: <a href=\"mailto:info@farben-profi.de\" title=\"mailto:info@farben-profi.de\">info@farben-profi.de<\/a><\/p><p>Sie wünschen ein persönliches Gespräch? Rufen Sie gerne an: <\/p><p><a href=\"tel:+4962333042660\" title=\"tel:+4962333042660\">06233\/3042660<\/a><\/p><p>(Mo – Fr: 9:00 – 17:00 Uhr)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18026029941000__9b65606d-6308-4282-bf63-f524d84c19cc-168666245956cf7208-0",
+        "template--18026029941000__9b65606d-6308-4282-bf63-f524d84c19cc-168666245956cf7208-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "835e64a6-001a-4aab-934d-0dd88dcb4f30": {
       "type": "contact-form",
       "settings": {
-        "heading": "Die Farben-Profis",
+        "heading": "",
         "heading_size": "h1",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "b7a3a661-adfd-4a10-b85c-25e76d2c8ee8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18026029941000__b7a3a661-adfd-4a10-b85c-25e76d2c8ee8-168666245956cf7208-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sto Farben",
+            "heading_size": "h1"
+          }
+        },
+        "template--18026029941000__b7a3a661-adfd-4a10-b85c-25e76d2c8ee8-168666245956cf7208-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sto Farben sind eine beliebte Wahl für Innen- und Außenanstriche. Sto ist ein Hersteller von Farben, Putzen und Dämmsystemen für Gebäude und bietet eine breite Palette von Farben für den privaten, gewerblichen und industriellen Gebrauch an.<\/p><h3>Hohe Qualität und langlebiger Schutz<\/h3><p>Sto Farben bieten auch eine große Auswahl an Farbtönen und -effekten, um jedem Einrichtungsstil gerecht zu werden. Es gibt Farben für alle Arten von Oberflächen, einschließlich Beton, Putz, Ziegel und Holz. Auch für verschiedene Anwendungsgebiete wie Fassaden, Innenräume, Bodenbeläge und Dachflächen gibt es spezielle Farbsysteme.<\/p><h3>Umweltfreundlich und nachhaltig<\/h3><p>Ein weiterer Vorteil von Sto Farben ist ihre Umweltfreundlichkeit. Sto legt großen Wert auf nachhaltige Materialien und Herstellungsprozesse und bietet eine breite Palette an ökologischen Farben an, die keine schädlichen Emissionen abgeben und eine geringe CO2-Bilanz aufweisen.<\/p><h3>Die Vorbereitung der Oberfläche vor der Anwendung von Sto Farben<\/h3><p>Wenn es um die Anwendung von Sto Farben geht, ist es wichtig, dass die Oberfläche vorbereitet wird, bevor die Farbe aufgetragen wird. Das bedeutet, dass die Oberfläche sauber und trocken sein sollte, um eine gleichmäßige und lang anhaltende Farbe zu gewährleisten. Wenn die Oberfläche rissig oder porös ist, sollte sie mit einem geeigneten Putz vorbereitet werden, bevor die Farbe aufgetragen wird.<\/p><h3>Auswahl der richtigen Art von Farben für den jeweiligen Anwendungsbereich<\/h3><p>Es ist auch wichtig, dass die richtige Art von Farbe für den jeweiligen Anwendungsbereich ausgewählt wird. Sto bietet spezielle Farben für Innen- und Außenanwendungen, sowie für Bereiche mit hoher Beanspruchung und Feuchtigkeit an. Es gibt auch Farben mit speziellen Eigenschaften wie Schimmelresistenz und Brandschutz.<\/p><p>Zusammenfassend lässt sich sagen, dass Sto Farben eine hervorragende Wahl für alle Arten von Anwendungen sind, da sie langlebig, vielseitig, umweltfreundlich und von hoher Qualität sind. Sie bieten eine breite Palette an Farben und Effekten und sind einfach aufzutragen, wenn die Oberfläche richtig vorbereitet ist. Wenn Sie nach einer Farbe suchen, die ein hohes Maß an Schutz und Langlebigkeit bietet, ist Sto die ideale Wahl.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18026029941000__b7a3a661-adfd-4a10-b85c-25e76d2c8ee8-168666245956cf7208-0",
+        "template--18026029941000__b7a3a661-adfd-4a10-b85c-25e76d2c8ee8-168666245956cf7208-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -582,6 +642,8 @@
     "a5fd6931-0b89-4c84-85fc-bf99b5124e69",
     "eef97734-dfd7-49ad-ad00-8812921a2762",
     "5198df2d-77be-445a-bb91-a4b7e5f068bc",
-    "835e64a6-001a-4aab-934d-0dd88dcb4f30"
+    "9b65606d-6308-4282-bf63-f524d84c19cc",
+    "835e64a6-001a-4aab-934d-0dd88dcb4f30",
+    "b7a3a661-adfd-4a10-b85c-25e76d2c8ee8"
   ]
 }
