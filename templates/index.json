@@ -463,10 +463,85 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "36344719-8cbe-4132-92bb-e1ba31dad39b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/giorgio_3d5c496b-aa95-49b0-abbe-996e30fda1ad.jpg",
+            "title": "Giorgio Medelnick",
+            "text": "<p>Leiter Verkauf & Marketing<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "66008a31-70da-49d4-83aa-f59ecd35eb12": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alica_4d3f7790-5107-4d21-876c-9fd86bd7858a.jpg",
+            "title": "Alica Gersch",
+            "text": "<p>Beratung & Verkauf<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "db612c1b-fa14-4a71-b448-82c44786508d": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "db2beeb6-ee18-488b-99f4-49bad2e94104": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "fbc67781-279a-4f5c-a8a2-4cb90191705c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/andyt.jpg",
+            "title": "Andreas Thiessen",
+            "text": "<p>Geschäftsführer<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f2881e6d-1ba0-4894-9d2b-77e6d2c2ce47": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jonas_2347819c-b1d8-4e17-97f7-f9ff86185769.jpg",
+            "title": "Jonas Abrahams",
+            "text": "<p>Leiter IT<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "22267f79-d7c5-4c95-9abf-417f92910396": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/viktoria_57a461cd-08d0-4bff-bbce-3b76b20e93a3.jpg",
+            "title": "Viktoria Rodovnitschenko",
+            "text": "<p>Auszubildende<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "template--18026029941000__5198df2d-77be-445a-bb91-a4b7e5f068bc-168666254860cd0659-0"
+        "template--18026029941000__5198df2d-77be-445a-bb91-a4b7e5f068bc-168666254860cd0659-0",
+        "36344719-8cbe-4132-92bb-e1ba31dad39b",
+        "66008a31-70da-49d4-83aa-f59ecd35eb12",
+        "db612c1b-fa14-4a71-b448-82c44786508d",
+        "db2beeb6-ee18-488b-99f4-49bad2e94104",
+        "fbc67781-279a-4f5c-a8a2-4cb90191705c",
+        "f2881e6d-1ba0-4894-9d2b-77e6d2c2ce47",
+        "22267f79-d7c5-4c95-9abf-417f92910396"
       ],
       "settings": {
         "title": "Die Farben-Profis",
