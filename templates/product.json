@@ -31,6 +31,18 @@
             "picker_type": "button"
           }
         },
+        "8962f2cd-be21-449a-bedd-946a516310ae": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "stopwatch",
+            "heading_1": "Lieferzeit: {{ product.metafields.general.lieferzeit.value }} Werktage",
+            "icon_2": "truck",
+            "heading_2": "Versandkostenfrei ab {{ product.metafields.general.versandkosten.value }}",
+            "icon_3": "none",
+            "heading_3": ""
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -52,14 +64,14 @@
         "d075259a-7e9c-4bed-8f1a-0c40d3660dc3": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Pairs well with",
+            "block_heading": "Für's optimale Ergebnis",
             "make_collapsible_row": false,
             "icon": "price_tag",
             "product_list_limit": 10,
             "products_per_page": 3,
             "pagination_style": "counter",
             "image_ratio": "square",
-            "enable_quick_add": false
+            "enable_quick_add": true
           }
         }
       },
@@ -69,6 +81,7 @@
         "caption",
         "price",
         "variant_picker",
+        "8962f2cd-be21-449a-bedd-946a516310ae",
         "quantity_selector",
         "buy_buttons",
         "share",
