@@ -559,6 +559,16 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "835e64a6-001a-4aab-934d-0dd88dcb4f30": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Die Farben-Profis",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -571,6 +581,7 @@
     "d4f3f585-8c1b-4897-9d97-7fa852f2d01b",
     "a5fd6931-0b89-4c84-85fc-bf99b5124e69",
     "eef97734-dfd7-49ad-ad00-8812921a2762",
-    "5198df2d-77be-445a-bb91-a4b7e5f068bc"
+    "5198df2d-77be-445a-bb91-a4b7e5f068bc",
+    "835e64a6-001a-4aab-934d-0dd88dcb4f30"
   ]
 }
