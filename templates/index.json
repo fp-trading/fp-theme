@@ -379,8 +379,8 @@
         "template--18026029941000__d4f3f585-8c1b-4897-9d97-7fa852f2d01b-1686661107ea223f21-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Zu meinen Empfehlungen",
+            "button_link": "shopify:\/\/collections\/empfehlungen"
           }
         }
       },
