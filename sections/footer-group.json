@@ -25,12 +25,21 @@
             "heading": "Google reCAPTCHA",
             "subtext": "<p>This site is protected by reCAPTCHA and the Google <a href=\"https:\/\/policies.google.com\/privacy\" target=\"_blank\" title=\"https:\/\/policies.google.com\/privacy\">Privacy Police<\/a> and <a href=\"https:\/\/policies.google.com\/terms\" target=\"_blank\" title=\"https:\/\/policies.google.com\/terms\">Terms of Service<\/a> apply.<\/p>"
           }
+        },
+        "0fff5b2c-d42f-47d9-bc85-ba7baef81244": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sto-signet.png",
+            "image_width": 215,
+            "alignment": "center"
+          }
         }
       },
       "block_order": [
         "footer-0",
         "footer-1",
-        "footer-2"
+        "footer-2",
+        "0fff5b2c-d42f-47d9-bc85-ba7baef81244"
       ],
       "settings": {
         "color_scheme": "background-1",
