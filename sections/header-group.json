@@ -14,6 +14,10 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".mega-menu__link--level-2 {font-family: var(--font-heading-family); font-size: 1.7rem;}",
+        ".list-unstyled > li:last-child {font-family: var(--font-heading-family);}"
+      ],
       "settings": {
         "logo_position": "top-center",
         "menu": "main-menu",
