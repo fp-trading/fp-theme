@@ -17,7 +17,19 @@
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
+            "text_style": "body",
+            "second_column": true,
+            "color_scheme": "background-2",
+            "image": "shopify:\/\/shop_images\/andyn.jpg"
+          }
+        },
+        "ebcc4bc6-8398-4963-9665-7e96b96e3d87": {
+          "type": "video",
+          "settings": {
+            "video": "{{ product.metafields.custom.video.value }}",
+            "video_url": "",
+            "description": "{{ product.title }} Produktvideo",
+            "second_column": true
           }
         },
         "area": {
@@ -42,9 +54,9 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "stopwatch",
-            "heading_1": "Lieferzeit: {{ product.metafields.general.lieferzeit.value }} Werktage",
+            "heading_1": "Lieferzeit: bis zu {{ product.metafields.general.lieferzeit.value }} Werktage",
             "icon_2": "truck",
-            "heading_2": "Versandkostenfrei ab {{ product.metafields.general.versandkosten.value }}",
+            "heading_2": "Versandkostenfrei ab {{ product.metafields.general.versandkosten.value }} €",
             "icon_3": "none",
             "heading_3": ""
           }
@@ -52,6 +64,7 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
+            "show_range": true
           }
         },
         "buy_buttons": {
@@ -85,6 +98,7 @@
         "6e6f5b3f-4c5c-4faa-be73-d9bfea448775",
         "title",
         "caption",
+        "ebcc4bc6-8398-4963-9665-7e96b96e3d87",
         "area",
         "price",
         "variant_picker",
@@ -93,6 +107,9 @@
         "buy_buttons",
         "share",
         "d075259a-7e9c-4bed-8f1a-0c40d3660dc3"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "enable_sticky_info": true,
