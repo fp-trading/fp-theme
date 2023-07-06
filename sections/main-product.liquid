@@ -97,7 +97,7 @@
                     {{- block.settings.text -}}
                   </p>
                   {% if block.settings.image != blank and block.settings.text != blank %}
-                    {% capture author_class %}__product-text-author color-{{ block.settings.color_scheme }}{% endcapture %}
+                    {% capture author_class %}__product-text-author{% endcapture %}
                     {{ block.settings.image | image_url: width: 80 | image_tag: class: author_class }}
                   {% endif %}
                 {% endcapture %}
