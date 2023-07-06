@@ -23,26 +23,5 @@
 
 .product__text.color-accent-1,
 .__product-text-author.color-accent-1 {
-    border-color: rgb(var(--color-base-accent-1));
-}
-
-.product__text.color-accent-2,
-.__product-text-author.color-accent-2 {
-    border-color: rgb(var(--color-base-accent-2));
-    color: rgb(var(--color-base-background-2));
-}
-
-.product__text.color-background-1,
-.__product-text-author.color-background-1 {
-    border-color: rgb(var(--color-base-background-1));
-}
- 
-.__product-text-author.color-background-2 {
-    border-color: rgb(var(--color-base-background-2));
-}
-
-.product__text.color-inverse,
-.__product-text-author.color-inverse {
-    border-color: rgb(var(--color-background));
-    color: rgb(var(--color-base-background-2));
+    border-color: rgb(var(--color-secondary-button));
 }
