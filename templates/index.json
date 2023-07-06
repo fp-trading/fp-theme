@@ -292,17 +292,261 @@
         "include_margins": true
       }
     },
-    "9b65606d-6308-4282-bf63-f524d84c19cc": {
+    "fce297f4-c9b6-45a4-a3e5-d9403fd19c8c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "topseller",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6e185661-8bfa-4e93-8bc5-cc0f04d1d520": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18051859906824__6e185661-8bfa-4e93-8bc5-cc0f04d1d520-1688640400e9048648-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Andreas Neufeld – Der Wandprofi",
+            "heading_size": "h2"
+          }
+        },
+        "template--18051859906824__6e185661-8bfa-4e93-8bc5-cc0f04d1d520-1688640400e9048648-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ich bin <strong>Andreas Neufeld<\/strong> und leidenschaftlicher Maler. Zusammen mit meinem Geschäftspartner Andreas Thiessen betreiben wir als <strong>zugelassene Online-Vertriebspartner von Sto<\/strong> diesen Onlineshop.<\/p><p>Auf meinem Youtube-Kanal \"<a href=\"https:\/\/www.youtube.com\/c\/IhrWandundDeckenprofiAndreasNeufeldBeindersheim\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/c\/IhrWandundDeckenprofiAndreasNeufeldBeindersheim\">Der Wandprofi<\/a>\" finden Sie zudem zahlreiche Videos mit Tipps und Tricks rund um die Themen Malern und Lackieren. Mit mehr als <strong>70.000 Abonnenten<\/strong> und über <strong>27 Millionen Aufrufe<\/strong> bin ich ein bekannter Youtuber im Bereich Handwerk.<\/p><p><em>Viel Erfolg bei Ihrem Projekt!<\/em><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18051859906824__6e185661-8bfa-4e93-8bc5-cc0f04d1d520-1688640400e9048648-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zu meinen Empfehlungen",
+            "button_link": "shopify:\/\/collections\/empfehlungen"
+          }
+        }
+      },
+      "block_order": [
+        "template--18051859906824__6e185661-8bfa-4e93-8bc5-cc0f04d1d520-1688640400e9048648-0",
+        "template--18051859906824__6e185661-8bfa-4e93-8bc5-cc0f04d1d520-1688640400e9048648-1",
+        "template--18051859906824__6e185661-8bfa-4e93-8bc5-cc0f04d1d520-1688640400e9048648-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/wandprofi.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "908a07de-1f21-407a-9f24-f1c4f5ae7cdb": {
       "type": "rich-text",
       "blocks": {
-        "template--18026029941000__9b65606d-6308-4282-bf63-f524d84c19cc-168666245956cf7208-0": {
+        "template--18051859906824__908a07de-1f21-407a-9f24-f1c4f5ae7cdb-168864220459bb64fe-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Willkommen auf dem Farben-Profi Onlineshop",
+            "heading_size": "h2"
+          }
+        },
+        "template--18051859906824__908a07de-1f21-407a-9f24-f1c4f5ae7cdb-168864220459bb64fe-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Der Onlineshop Farben-Profi.de bietet eine breite Palette an hochwertigen Sto Farben und Lacke für jedes Projekt. Von Wand- und Deckenfarben über Holz- und Metalllacke bis hin zu spezialisierten Produkten für den Innen- und Außenbereich - Sie werden alles finden, was Sie brauchen, um Ihre Räume zu verschönern.<\/p><p>Die einfache Navigation auf der Website ermöglicht es Kunden, schnell und effizient das gewünschte Produkt zu finden. Die detaillierten Produktbeschreibungen, einschließlich Farbmuster, helfen bei der Auswahl der richtigen Farbe. Zusätzlich bietet Farben-Profi.de eine große Auswahl an Werkzeugen und Zubehör, damit Kunden alle benötigten Artikel an einem Ort finden können.<\/p><p>Wir legen großen Wert auf Kundenzufriedenheit und stellen sicher, dass jeder Kunde eine hervorragende Erfahrung beim Einkauf hat. Der schnelle und zuverlässige Versand sowie die einfache Rückgabe sind ein wichtiger Teil unseres Engagements, um unseren Kunden einen hervorragenden Service zu bieten.<\/p><p>Farben-Profi.de ist ein Onlineshop, dem Sie vertrauen können, wenn Sie nach hochwertigen Farben und Lacke suchen. Besuchen Sie jetzt die Website, um Ihre nächste Projektfarbe auszuwählen!<\/p>"
+          }
+        },
+        "template--18051859906824__908a07de-1f21-407a-9f24-f1c4f5ae7cdb-168864220459bb64fe-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18051859906824__908a07de-1f21-407a-9f24-f1c4f5ae7cdb-168864220459bb64fe-0",
+        "template--18051859906824__908a07de-1f21-407a-9f24-f1c4f5ae7cdb-168864220459bb64fe-1",
+        "template--18051859906824__908a07de-1f21-407a-9f24-f1c4f5ae7cdb-168864220459bb64fe-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "bd71703e-cc70-4663-b585-49498e2b1207": {
+      "type": "featured-blog",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "blog": "blog",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2a85e430-7345-4e8b-9719-1f275b28a1ed": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18051859906824__2a85e430-7345-4e8b-9719-1f275b28a1ed-16886405735075380a-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/andyn.jpg",
+            "title": "Andreas Neufeld",
+            "text": "<p>Geschäftsführer<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18051859906824__2a85e430-7345-4e8b-9719-1f275b28a1ed-16886405735075380a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/giorgio_3d5c496b-aa95-49b0-abbe-996e30fda1ad.jpg",
+            "title": "Giorgio Medelnick",
+            "text": "<p>Leiter Vertrieb & Marketing<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18051859906824__2a85e430-7345-4e8b-9719-1f275b28a1ed-16886405735075380a-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alica_4d3f7790-5107-4d21-876c-9fd86bd7858a.jpg",
+            "title": "Alica Gersch",
+            "text": "<p>Beratung & Verkauf<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "cdf69582-0e9f-4df1-8a88-c098919e062c": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "116a796d-276c-46b4-acf4-965d4a93b283": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "aee7de9b-165a-4d30-89d9-3d399a666e43": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/andyt.jpg",
+            "title": "Andreas Thiessen",
+            "text": "<p>Geschäftsführer<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "988b94ba-843d-4322-8995-9f902bfd968d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jonas_2347819c-b1d8-4e17-97f7-f9ff86185769.jpg",
+            "title": "Jonas Abrahams",
+            "text": "<p>Leitung IT<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "44923651-9ca9-4ce0-b6a9-866df9fa9471": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/viktoria_57a461cd-08d0-4bff-bbce-3b76b20e93a3.jpg",
+            "title": "Viktoria Rodovnitschenko",
+            "text": "<p>Auszubildende<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18051859906824__2a85e430-7345-4e8b-9719-1f275b28a1ed-16886405735075380a-0",
+        "template--18051859906824__2a85e430-7345-4e8b-9719-1f275b28a1ed-16886405735075380a-1",
+        "template--18051859906824__2a85e430-7345-4e8b-9719-1f275b28a1ed-16886405735075380a-2",
+        "cdf69582-0e9f-4df1-8a88-c098919e062c",
+        "116a796d-276c-46b4-acf4-965d4a93b283",
+        "aee7de9b-165a-4d30-89d9-3d399a666e43",
+        "988b94ba-843d-4322-8995-9f902bfd968d",
+        "44923651-9ca9-4ce0-b6a9-866df9fa9471"
+      ],
+      "settings": {
+        "title": "Die Farben-Profis",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "61a13569-631d-4a27-ad5e-b90d65ab5384": {
+      "type": "rich-text",
+      "blocks": {
+        "098ac7b5-f925-435c-9af8-b0fcca337d9c": {
           "type": "heading",
           "settings": {
             "heading": "Kontakt",
             "heading_size": "h1"
           }
         },
-        "template--18026029941000__9b65606d-6308-4282-bf63-f524d84c19cc-168666245956cf7208-1": {
+        "90807ec8-0f2c-4981-9958-234a5bd85447": {
           "type": "text",
           "settings": {
             "text": "<p>Sie haben eine Frage zu einem Produkt, brauchen Beratung oder haben Interesse an einem individuellen Angebot? Dann screiben Sie uns. Wir antworten auf jede Nachricht innerhalb eines Werktages.<\/p><p>Nutzen Sie unser Kontaktformular oder schreiben uns eine E-Mail an: <a href=\"mailto:info@farben-profi.de\" title=\"mailto:info@farben-profi.de\">info@farben-profi.de<\/a><\/p><p>Sie wünschen ein persönliches Gespräch? Rufen Sie gerne an: <\/p><p><a href=\"tel:+4962333042660\" title=\"tel:+4962333042660\">06233\/3042660<\/a><\/p><p>(Mo – Fr: 9:00 – 17:00 Uhr)<\/p>"
@@ -310,8 +554,8 @@
         }
       },
       "block_order": [
-        "template--18026029941000__9b65606d-6308-4282-bf63-f524d84c19cc-168666245956cf7208-0",
-        "template--18026029941000__9b65606d-6308-4282-bf63-f524d84c19cc-168666245956cf7208-1"
+        "098ac7b5-f925-435c-9af8-b0fcca337d9c",
+        "90807ec8-0f2c-4981-9958-234a5bd85447"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -369,7 +613,12 @@
     "86785839-febe-4912-b809-fc2584d92b28",
     "16886415946d613e29",
     "168864170153d1c695",
-    "9b65606d-6308-4282-bf63-f524d84c19cc",
+    "fce297f4-c9b6-45a4-a3e5-d9403fd19c8c",
+    "6e185661-8bfa-4e93-8bc5-cc0f04d1d520",
+    "908a07de-1f21-407a-9f24-f1c4f5ae7cdb",
+    "bd71703e-cc70-4663-b585-49498e2b1207",
+    "2a85e430-7345-4e8b-9719-1f275b28a1ed",
+    "61a13569-631d-4a27-ad5e-b90d65ab5384",
     "835e64a6-001a-4aab-934d-0dd88dcb4f30",
     "b7a3a661-adfd-4a10-b85c-25e76d2c8ee8"
   ]
