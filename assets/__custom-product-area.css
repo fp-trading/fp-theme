@@ -1,5 +1,5 @@
 .__area {
-  background-color: rgb(var(--color-base-background-2));
+  background: rgb(var(--color-background)) linear-gradient(rgba(var(--color-foreground), 0.04), rgba(var(--color-foreground), 0.04));
   border-radius: 2rem;
   padding: 1.5rem;
   display: flex;

@@ -113,7 +113,7 @@
             {%- when 'area' -%}
               {% if product.selected_or_first_available_variant.unit_price_measurement.quantity_value != blank and product.metafields.general.verbrauch != blank %}
                 {% capture area %}
-                  <div class="__area">
+                  <div class="__area color-{{ section.settings.color_scheme }} gradient{% unless block.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ block.settings.background_style }}{% endunless %}">
                     <input id="__consumation" class="hidden" value="{{product.metafields.general.verbrauch }}" />
                     <input id="__variant" class="hidden" value="{{product.selected_or_first_available_variant.id }}" />
                     <h3>Flächenrechner</h3>
@@ -791,6 +791,28 @@
           "default": false,
           "label": "Zweite Spalte",
           "info": "Verschiebt dieses Element in die zweite Spalte der Produktdaten."
+        },
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "t:sections.all.colors.label",
+          "default": "background-1"
+        },
+        {
+          "type": "select",
+          "id": "background_style",
+          "options": [
+            {
+              "value": "none",
+              "label": "t:sections.multicolumn.settings.background_style.options__1.label"
+            },
+            {
+              "value": "primary",
+              "label": "t:sections.multicolumn.settings.background_style.options__2.label"
+            }
+          ],
+          "default": "primary",
+          "label": "t:sections.multicolumn.settings.background_style.label"
         }
       ]
     },
