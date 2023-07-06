@@ -28,7 +28,7 @@
           "settings": {
             "video": "{{ product.metafields.custom.video.value }}",
             "video_url": "",
-            "description": "{{ product.title }} Produktvideo",
+            "description": "",
             "second_column": true
           }
         },
