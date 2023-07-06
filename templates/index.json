@@ -45,53 +45,7 @@
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "ece4ef71-5b49-43e7-bf2d-748cd0095c73": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--18026029941000__ece4ef71-5b49-43e7-bf2d-748cd0095c73-1686649133cbaf2729-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "StoColor Rapid Ultramatt",
-            "heading_size": "h2"
-          }
-        },
-        "template--18026029941000__ece4ef71-5b49-43e7-bf2d-748cd0095c73-1686649133cbaf2729-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Die Wandprofi-Empfehlung<\/strong> für hochste Deckkraft und ein streifenfreies Ergebnis!<\/p>",
-            "text_style": "subtitle"
-          }
-        },
-        "template--18026029941000__ece4ef71-5b49-43e7-bf2d-748cd0095c73-1686649133cbaf2729-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Zum Produkt",
-            "button_link": "shopify:\/\/products\/stocolorrapidultramatt"
-          }
-        }
-      },
-      "block_order": [
-        "template--18026029941000__ece4ef71-5b49-43e7-bf2d-748cd0095c73-1686649133cbaf2729-0",
-        "template--18026029941000__ece4ef71-5b49-43e7-bf2d-748cd0095c73-1686649133cbaf2729-1",
-        "template--18026029941000__ece4ef71-5b49-43e7-bf2d-748cd0095c73-1686649133cbaf2729-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/ultramatt_promo_5fe79278-6509-405b-b6b0-f709ddede4e5.jpg",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "image_behavior": "none",
+        "color_scheme": "inverse",
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
