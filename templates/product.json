@@ -20,6 +20,12 @@
             "text_style": "subtitle"
           }
         },
+        "area": {
+          "type": "area",
+          "settings": {
+            "second_column": true
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -79,6 +85,7 @@
         "6e6f5b3f-4c5c-4faa-be73-d9bfea448775",
         "title",
         "caption",
+        "area",
         "price",
         "variant_picker",
         "8962f2cd-be21-449a-bedd-946a516310ae",

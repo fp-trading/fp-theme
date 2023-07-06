@@ -179,6 +179,7 @@ class QuantityInput extends HTMLElement {
 
   onInputChange(event) {
     this.validateQtyRules();
+    this.updateRange();
   }
 
   onButtonClick(event) {
@@ -201,6 +202,12 @@ class QuantityInput extends HTMLElement {
       const buttonPlus = this.querySelector(".quantity__button[name='plus']");
       buttonPlus.classList.toggle('disabled', value >= max);
     }
+  }
+
+  updateRange() {
+    const range = document.getElementById(this.input.id.replace('Quantity', 'Range'));
+    range.setAttribute('data-quantity', this.input.value);
+    range.innerHTML = range.getAttribute('data-base') * range.getAttribute('data-quantity');
   }
 }
 
@@ -1032,8 +1039,13 @@ class VariantSelects extends HTMLElement {
         );
         const inventoryDestination = document.getElementById(`Inventory-${this.dataset.section}`);
 
+        const rangeSource = html.getElementById(`Range-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`);
+        const rangeDestination = document.getElementById(`Range-${this.dataset.section}`);
+
         if (source && destination) destination.innerHTML = source.innerHTML;
         if (inventorySource && inventoryDestination) inventoryDestination.innerHTML = inventorySource.innerHTML;
+        if (rangeSource && rangeDestination) rangeDestination.innerHTML = rangeSource.innerHTML;
+        if (rangeSource && rangeDestination) rangeDestination.setAttribute('data-base', rangeSource.getAttribute('data-base'));
         if (skuSource && skuDestination) {
           skuDestination.innerHTML = skuSource.innerHTML;
           skuDestination.classList.toggle('visibility-hidden', skuSource.classList.contains('visibility-hidden'));
@@ -1045,6 +1057,9 @@ class VariantSelects extends HTMLElement {
 
         if (inventoryDestination)
           inventoryDestination.classList.toggle('visibility-hidden', inventorySource.innerText === '');
+
+        if (rangeDestination)
+          rangeDestination.classList.toggle('visibility-hidden', rangeSource.innerText === '');
 
         const addButtonUpdated = html.getElementById(`ProductSubmitButton-${sectionId}`);
         this.toggleAddButton(
@@ -1086,12 +1101,14 @@ class VariantSelects extends HTMLElement {
     const addButtonText = button.querySelector('[name="add"] > span');
     const price = document.getElementById(`price-${this.dataset.section}`);
     const inventory = document.getElementById(`Inventory-${this.dataset.section}`);
+    const range = document.getElementById(`Range-${this.dataset.section}`);
     const sku = document.getElementById(`Sku-${this.dataset.section}`);
 
     if (!addButton) return;
     addButtonText.textContent = window.variantStrings.unavailable;
     if (price) price.classList.add('visibility-hidden');
     if (inventory) inventory.classList.add('visibility-hidden');
+    if (range) range.classList.add('visibility-hidden');
     if (sku) sku.classList.add('visibility-hidden');
   }
 

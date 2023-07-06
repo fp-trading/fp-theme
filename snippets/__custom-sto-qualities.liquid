@@ -1,0 +1,21 @@
+{% comment %}
+  Renders a column of quality seals for Sto products.
+
+  Accepts:
+  - qualities: {Array} Metaobjects of the qualities
+
+  Usage:
+  {% render '__custom-sto-qualities', qualities: product.metafields.sto.quality.value %}
+{% endcomment %}
+
+{{ '__custom-tooltip.css' | asset_url | stylesheet_tag }}
+{{ '__custom-sto-qualities.css' | asset_url | stylesheet_tag }}
+
+<div class="__sto-quality-wrapper">
+  {%- for quality in qualities -%}
+    <div class="__tooltip">
+      {{ quality.icon.value | image_url: width: 100 | image_tag: class: '__sto-quality' }}
+      <span class="__tooltip-text __tooltip-text-right caption">{{ quality.name.value }}</span>
+    </div>
+  {%- endfor -%}
+</div>

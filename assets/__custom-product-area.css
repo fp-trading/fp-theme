@@ -1,0 +1,63 @@
+.__area {
+  background-color: rgb(var(--color-base-background-2));
+  border-radius: 2rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.__area > h3 {
+  width: 100%;
+}
+
+.__area > *:not(:last-child) {
+  margin: 0 0 1.5rem 0;
+}
+
+.__area > .field {
+  max-width: calc(100% - 3rem);
+}
+
+.__area > .field,
+.__area > .__unit {
+  margin-bottom: .5rem;
+}
+
+.__unit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.__buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: .5rem;
+  align-items: stretch;
+}
+
+.__buttons svg {
+  height: 1rem;
+}
+
+.__hide {
+  transform: scale(0) !important;
+  max-height: 0;
+}
+
+.__area .__hint {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.__area .__hint,
+.__area .__result {
+  transform: scale(1);
+  transition: transform 150ms ease;
+  transition-delay: 150ms;
+}

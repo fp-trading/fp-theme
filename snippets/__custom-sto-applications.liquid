@@ -1,0 +1,21 @@
+{% comment %}
+  Renders a row of application icons for Sto products.
+
+  Accepts:
+  - applications: {Array} Metaobjects of the applications
+
+  Usage:
+  {% render '__custom-sto-applications', applications: product.metafields.sto.application.value %}
+{% endcomment %}
+
+{{ '__custom-tooltip.css' | asset_url | stylesheet_tag }}
+{{ '__custom-sto-applications.css' | asset_url | stylesheet_tag }}
+
+<div class="__sto-application-wrapper">
+  {%- for application in applications -%}
+    <div class="__tooltip">
+      {{ application.icon.value | image_url: width: 50 | image_tag: class: '__sto-application' }}
+      <span class="__tooltip-text __tooltip-text-bottom-left caption">{{ application.name.value }}</span>
+    </div>
+  {%- endfor -%}
+</div>

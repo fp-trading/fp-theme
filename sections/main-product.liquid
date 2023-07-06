@@ -1,3 +1,7 @@
+<html>
+
+</html>
+
 <section
   id="MainProduct-{{ section.id }}"
   class="page-width section-{{ section.id }}-padding"
@@ -10,6 +14,8 @@
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
   {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+  {{ '__custom-product-text.css' | asset_url | stylesheet_tag }}
+  {{ '__custom-product-area.css' | asset_url | stylesheet_tag }}
 
   {%- style -%}
     .section-{{ section.id }}-padding {
@@ -27,6 +33,7 @@
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ '__custom-product-area.js' | asset_url }}" defer="defer"></script>
   {% if section.settings.image_zoom == 'hover' %}
     <script id="EnableZoomOnHover-main" src="{{ 'magnify.js' | asset_url }}" defer="defer"></script>
   {% endif %}
@@ -57,6 +64,12 @@
 
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
+      {% if product.metafields.sto.application != blank %}
+        {% render '__custom-sto-applications', applications: product.metafields.sto.application.value %}
+      {% endif %}
+      {% if product.metafields.sto.quality != blank %}
+        {% render '__custom-sto-qualities', qualities: product.metafields.sto.quality.value %}
+      {% endif %}
       {% render 'product-media-gallery', variant_images: variant_images %}
     </div>
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -68,17 +81,197 @@
       >
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
+        {%- assign second_column = '' -%}
+
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
               {% render block %}
             {%- when 'text' -%}
-              <p
-                class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
-                {{ block.shopify_attributes }}
-              >
-                {{- block.settings.text -}}
-              </p>
+              {%- if block.settings.text != blank %}
+                {% capture product_text %}
+                  <p
+                    class="product__text color-{{ block.settings.color_scheme }} inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{- block.settings.text -}}
+                  </p>
+                  {% if block.settings.image != blank and block.settings.text != blank %}
+                    {% capture author_class %}__product-text-author color-{{ block.settings.color_scheme }}{% endcapture %}
+                    {{ block.settings.image | image_url: width: 80 | image_tag: class: author_class }}
+                  {% endif %}
+                {% endcapture %}
+                {% if block.settings.second_column %}
+                  {% capture second_column %}
+                    {{ second_column }}
+                    {{ product_text }}
+                  {% endcapture %}
+                {% else %}
+                  {{ product_text }}
+                {% endif %}
+              {% endif %}
+            {%- when 'area' -%}
+              {% if product.selected_or_first_available_variant.unit_price_measurement.quantity_value != blank and product.metafields.general.verbrauch != blank %}
+                {% capture area %}
+                  <div class="__area">
+                    <input id="__consumation" class="hidden" value="{{product.metafields.general.verbrauch }}" />
+                    <input id="__variant" class="hidden" value="{{product.selected_or_first_available_variant.id }}" />
+                    <h3>Flächenrechner</h3>
+                    <p>
+                      Sie kennen Ihre Wandfläche nicht, dafür aber die
+                    </p>
+                    <div class="field">
+                      <input
+                        id="__area-input"
+                        class="field__input"
+                        type="text"
+                        placeholder="Bodenfläche"
+                      />
+                      <label class="field__label">Bodenfläche</label>
+                    </div>
+                    <div class="__unit">
+                      <span>m<sup>2</sup></span>
+                    </div>
+                    <div class="__buttons color-background-2">
+                      <span id="__area-hint" class="__hide __hint caption">{% render 'icon-caret' %} Bitte wählen {% render 'icon-caret' %}</span>
+                      <span id="Result-{{ section.id }}" class="caption __hide __result"></span>
+                      <button id="__area-calculate-walls" class="button disabled">Nur Wände</button>
+                      <button id="__area-calculate-ceiling" class="button disabled">Wände und Decke</button>
+                    </div>
+                  </div>
+                {% endcapture %}
+                {% if block.settings.second_column %}
+                  {% capture second_column %}
+                    {{ second_column }}
+                    {{ area }}
+                  {% endcapture %}
+                {% else %}
+                  {{ area }}
+                {% endif %}
+              {% endif %}
+            {%- when 'video' -%}
+              {% if block.settings.video != null or block.settings.video_url != null or product.metafields.custom.video_id %}
+                {% capture product_video %}
+                  {{ 'video-section.css' | asset_url | stylesheet_tag }}
+                  {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+  
+                  {%- liquid
+                    assign default_id = block.settings.video_url.id | default: product.metafields.custom.video_id
+                    assign video_id = block.settings.video.id | default: default_id
+                    assign video_alt = block.settings.video.alt | default: block.settings.description
+                    assign alt = 'sections.video.load_video' | t: description: video_alt | escape
+                    assign poster = block.settings.cover_image | default: shop.brand.cover_image
+  
+                    if block.settings.video != null
+                      assign ratio_diff = block.settings.video.aspect_ratio | minus: poster.aspect_ratio | abs
+                      if ratio_diff < 0.01 and ratio_diff > 0
+                        assign fix_ratio = true
+                      endif
+                    endif
+                  -%}
+  
+                  {%- capture sizes -%}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px)
+                    calc(100vw - 10rem), 100vw
+                  {%- endcapture -%}
+  
+                  <div class="video-section isolate section-{{ section.id }}-padding">
+                    <noscript>
+                      <div class="video-section__media"
+                        {% if poster != null %}
+                          style="--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 100 }}%;"
+                        {% endif %}
+                      >
+                        {% if block.settings.video == null and block.settings.video_url != null -%}
+                          <a
+                            href="{{ block.settings.video_url }}"
+                            class="video-section__poster media media--transparent{% if poster == null %} video-section__placeholder{% endif %}"
+                          >
+                            {%- if poster != null -%}
+                              {{ poster
+                                | image_url: width: 3840
+                                | image_tag: loading: 'lazy', sizes: sizes, widths: '375, 750, 1100, 1500, 1780, 2000, 3000, 3840', alt: alt
+                              }}
+                            {%- else -%}
+                              {{ 'collection-2' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+                            {%- endif -%}
+                          </a>
+                        {%- else -%}
+                          {{ section.settings.video
+                            | video_tag:
+                              image_size: "1100x",
+                              controls: true,
+                              muted: false
+                          }}
+                        {% endif %}
+                      </div>
+                    </noscript>
+                    <deferred-media
+                      class="video-section__media deferred-media no-js-hidden gradient global-media-settings{% if fix_radio %} media-fit-cover{% endif %}"
+                      data-media-id="{{ video_id}}"
+                      {% if poster != null %}
+                        style="--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 100 }}%;"
+                      {% endif %}
+                    >
+                      <button
+                        id="Deferred-Poster-Modal-{{ video_id }}"
+                        class="video-section__poster media deferred-media__poster media--landscape"
+                        type="button"
+                        aria-label="{{ alt }}"
+                      >
+                        {%- if poster != null -%}
+                          {{ poster
+                            | image_url: width: 3840
+                            | image_tag: loading: 'lazy', sizes: sizes, widths: '375, 750, 1100, 1500, 1780, 2000, 3000, 3840', alt: alt
+                          }}
+                        {%- else -%}
+                          {{ 'collection-2' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+                        {%- endif -%}
+                        <span class="deferred-media__poster-button motion-reduce">
+                          {%- render 'icon-play' -%}
+                        </span>
+                      </button>
+                      <template>
+                        {%- if block.settings.video == null and block.settings.video_url != null or product.metafields.custom.video_id != blank -%}
+                          {%- if block.settings.video_url.type == 'youtube' -%}
+                            <iframe
+                              src="https://www.youtube.com/embed/{{ video_id }}?enablejsapi=1&autoplay=1"
+                              class="js-youtube"
+                              allow="autoplay; encrypted-media"
+                              allowfullscreen
+                              title="{{ section.settings.description | escape }}"
+                            ></iframe>
+                          {%- else -%}
+                            <iframe
+                              src="https://player.vimeo.com/video/{{ video_id }}?autoplay=1"
+                              class="js-vimeo"
+                              allow="autoplay; encrypted-media"
+                              allowfullscreen
+                              title="{{ section.settings.description | escape }}"
+                            ></iframe>
+                          {%- endif -%}
+                        {%- else -%}
+                          {{ block.settings.video
+                            | video_tag:
+                              image_size: "1100x",
+                              autoplay: true,
+                              controls: true,
+                              muted: false
+                          }}
+                        {%- endif -%}
+                      </template>
+                    </deferred-media>
+                  </div>
+                {% endcapture %}
+                {% if block.settings.second_column %}
+                  {% capture second_column %}
+                    {{ second_column }}
+                    {{ product_video }}
+                  {% endcapture %}
+                {% else %}
+                  {{ product_video }}
+                {% endif %}
+              {% endif %}
             {%- when 'title' -%}
               <div class="product__title" {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}</h1>
@@ -280,7 +473,12 @@
                       -}}
                     </span>
                   {%- endif -%}
-                </div>
+              </div>
+                {% if product.selected_or_first_available_variant.unit_price_measurement.quantity_value != blank and product.metafields.general.verbrauch != blank %}
+                  <div class="caption">
+                    Reicht für ca. <span id="Range-{{ section.id }}" data-base="{{ product.selected_or_first_available_variant.unit_price_measurement.quantity_value | divided_by: product.metafields.general.verbrauch | round }}">{{ product.selected_or_first_available_variant.unit_price_measurement.quantity_value | divided_by: product.metafields.general.verbrauch | round }}</span> m{% if product.selected_or_first_available_variant.unit_price_measurement.reference_unit != 'm' %}<sup>2</sup>{% endif %}.
+                  </div>
+                {% endif %}
               </div>
             {%- when 'popup' -%}
               <modal-opener
@@ -440,6 +638,11 @@
         </a>
       </product-info>
     </div>
+    {% if second_column != blank %}
+      <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
+        {{ second_column }}
+      </div>
+    {% endif %}
     {%- if section.settings.media_position == 'right' -%}
       {% comment %} Duplicate gallery to display after product content on tablet/desktop breakpoint {% endcomment %}
       <div class="grid__item product__media-wrapper small-hide">
@@ -579,6 +782,67 @@
       "type": "@app"
     },
     {
+      "type": "area",
+      "name": "Flächenrechner",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "second_column",
+          "default": false,
+          "label": "Zweite Spalte",
+          "info": "Verschiebt dieses Element in die zweite Spalte der Produktdaten."
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "name": "Video",
+      "settings": [
+        {
+          "type": "header",
+          "content": "t:sections.video.settings.header__1.content"
+        },
+        {
+          "type": "video",
+          "id": "video",
+          "label": "t:sections.video.settings.video.label"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.video.settings.header__2.content"
+        },
+        {
+          "type": "paragraph",
+          "content": "t:sections.video.settings.paragraph.content"
+        },
+        {
+          "type": "video_url",
+          "id": "video_url",
+          "accept": ["youtube", "vimeo"],
+          "label": "t:sections.video.settings.video_url.label",
+          "info": "t:sections.video.settings.video_url.info"
+        },
+        {
+          "type": "image_picker",
+          "id": "cover_image",
+          "label": "t:sections.video.settings.cover_image.label"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "t:sections.video.settings.description.label",
+          "info": "t:sections.video.settings.description.info"
+        },
+        {
+          "type": "checkbox",
+          "id": "second_column",
+          "default": false,
+          "label": "Zweite Spalte",
+          "info": "Verschiebt dieses Element in die zweite Spalte der Produktdaten."
+        }
+      ]
+    },
+    {
       "type": "text",
       "name": "t:sections.main-product.blocks.text.name",
       "settings": [
@@ -607,6 +871,46 @@
           ],
           "default": "body",
           "label": "t:sections.main-product.blocks.text.settings.text_style.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "second_column",
+          "default": false,
+          "label": "Zweite Spalte",
+          "info": "Verschiebt dieses Element in die zweite Spalte der Produktdaten."
+        },
+        {
+          "type": "select",
+          "id": "color_scheme",
+          "options": [
+            {
+              "value": "accent-1",
+              "label": "t:sections.all.colors.accent_1.label"
+            },
+            {
+              "value": "accent-2",
+              "label": "t:sections.all.colors.accent_2.label"
+            },
+            {
+              "value": "background-1",
+              "label": "t:sections.all.colors.background_1.label"
+            },
+            {
+              "value": "background-2",
+              "label": "t:sections.all.colors.background_2.label"
+            },
+            {
+              "value": "inverse",
+              "label": "t:sections.all.colors.inverse.label"
+            }
+          ],
+          "default": "background-2",
+          "label": "t:sections.all.colors.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Autorenbild"
         }
       ]
     },
@@ -693,7 +997,16 @@
     {
       "type": "quantity_selector",
       "name": "t:sections.main-product.blocks.quantity_selector.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_range",
+          "default": true,
+          "label": "Reichweite anzeigen",
+          "info": "Fügt unter die Mengenauswahl einen Hinweistext hinzu, in dem die zu erwartende Reichweite des Produkts angezeigt wird."
+        }
+      ]
     },
     {
       "type": "variant_picker",

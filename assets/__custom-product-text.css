@@ -1,0 +1,48 @@
+.product__text.color-accent-1,
+.product__text.color-accent-2,
+.product__text.color-background-1,
+.product__text.color-background-2,
+.product__text.color-inverse {
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.__product-text-author {
+    border-radius: 50%;
+    border: .4rem solid;
+    position: relative;
+    top: -2rem;
+    right: -1rem;
+    float: right;
+    z-index: 2;
+}
+
+.product__info-container .__product-text-author {
+    top: -3rem;
+}
+
+.product__text.color-accent-1,
+.__product-text-author.color-accent-1 {
+    border-color: rgb(var(--color-base-accent-1));
+}
+
+.product__text.color-accent-2,
+.__product-text-author.color-accent-2 {
+    border-color: rgb(var(--color-base-accent-2));
+    color: rgb(var(--color-base-background-2));
+}
+
+.product__text.color-background-1,
+.__product-text-author.color-background-1 {
+    border-color: rgb(var(--color-base-background-1));
+}
+ 
+.__product-text-author.color-background-2 {
+    border-color: rgb(var(--color-base-background-2));
+}
+
+.product__text.color-inverse,
+.__product-text-author.color-inverse {
+    border-color: rgb(var(--color-background));
+    color: rgb(var(--color-base-background-2));
+}

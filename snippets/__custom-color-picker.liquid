@@ -1,0 +1,95 @@
+{% comment %}
+  Renders color picker popup
+
+  Accepts:
+  - product: {Object} product object.
+  - block: {Object} block object.
+
+
+  Usage:
+  {% render 'product-variant-options',
+    product: product,
+    block: block
+  %}
+{% endcomment %}
+{{ '__custom-color-picker.css' | asset_url | stylesheet_tag }}
+<script src="{{ '__custom-color-picker.js' | asset_url }}" defer="defer"></script>
+
+{% assign colors = 'Weiß,Gelb,Orange,Rot,Violett,Blau,Grün,Grau' | split: ',' %}
+{% assign categories = 'StoColor System 30er,Sto Architectural Colours,RAL Farben,NCS Farbsystem' | split: ',' %}
+
+<script>
+  const product = {{ product | json }};
+  const materialMachbarkeitenURL = "{{ '__custom-materialmachbarkeiten.json' | asset_url }}";
+  const farbtonMachbarkeitenURL = "{{ '__custom-farbtonmachbarkeiten.json' | asset_url }}";
+  const farbtonInfosURL = "{{ '__custom-farbtoninfos.json' | asset_url }}";
+</script>
+
+<modal-dialog id="PopupModal-color-picker" class="product-popup-modal">
+  <div
+    id="color-picker-popup"
+    role="dialog"
+    aria-label="{{ block.settings.text }}"
+    aria-modal="true"
+    class="product-popup-modal__content"
+    tabindex="-1"
+  >
+    <button
+      id="ModalClose-color-picker"
+      type="button"
+      class="product-popup-modal__toggle"
+      aria-label="{{ 'accessibility.close' | t }}"
+    >
+      {% render 'icon-close' %}
+    </button>
+    <div class="product-popup-modal__content-info">
+      <h2>Farbtonauswahl</h2>
+      <div class="field color-picker-search-field">
+        <input id="color-picker-search-input" class="field__input" type="text" placeholder="Farbton suchen">
+        <label class="field__label">Farbton suchen</label>
+      </div>
+      <div class="color-picker-custom-warning">
+        ⚠️ Farbtöne können aus technischen Gründen abweichen. Nur die Darstellung auf dem Originalfarbtonfächer ist
+        bindend.
+      </div>
+      <div class="color-picker-breadcrumb caption-with-letter-spacing--large">
+        <a class="categories-breadcrumb">Farbsysteme</a><a id="category-breadcrumb"></a><a id="search-breadcrumb"></a>
+      </div>
+      <div class="color-picker-content level-1">
+        <div class="color-picker-categories">
+          <div class="color-picker-colors">
+            <h3>StoColor System</h3>
+            {% for color in colors %}
+              <div class="color-picker-color" onclick="goToCategory('{{ color }}', true)">
+                <div class="{{ color | downcase }}"></div>
+                {{ color }}
+              </div>
+            {% endfor %}
+          </div>
+          <h3>Weitere Farbsysteme</h3>
+          {% for category in categories %}
+            <div class="color-picker-category" onclick="goToCategory('{{ category }}')">{{ category }}</div>
+          {% endfor %}
+        </div>
+        <div id="color-picker-category-content">
+          <div id="color-picker-custom" class="color-picker-category-element">
+            <div class="color-picker-category-color">
+              <button id="color-picker-button-custom" class="button">Farb&shy;ton an&shy;fra&shy;gen</button>
+              <button id="color-picker-button-reorder" class="button">Nach&shy;be&shy;stel&shy;len</button>
+            </div>
+            <div class="color-picker-custom-warning">
+              * Bei Anfragen und Nachbestellungen kann sich der Preis um bis zu 4,80€ pro Liter erhöhen.
+            </div>
+            <div class="color-picker-color-info"></div>
+          </div>
+          <template id="color-picker-category-element">
+            <div class="color-picker-category-element">
+              <div class="color-picker-category-color"></div>
+              <div class="color-picker-color-info"></div>
+            </div>
+          </template>
+        </div>
+      </div>
+    </div>
+  </div>
+</modal-dialog>

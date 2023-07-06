@@ -1,0 +1,27 @@
+.__sto-quality {
+  width: 35px;
+  height: 35px;
+}
+
+@media screen and (min-width: 990px) {
+  .__sto-quality {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.__sto-quality-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 1rem;
+  z-index: 3;
+}
+
+.section-header.shopify-section-group-header-group {
+  z-index: 4;
+}
+
+.product__media-wrapper {
+  position: relative;
+}

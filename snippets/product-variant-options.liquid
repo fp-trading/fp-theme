@@ -25,6 +25,13 @@
 
 {%- for value in option.values -%}
   {%- liquid
+    if option.name == 'Farbe' and value contains 'FK0'
+      assign farbtonklasse = true
+    elsif option.name == 'Farbe' and value == 'getönt'
+      assign getoent = true
+    else
+      assign farbtonklasse = false
+    endif
     assign option_disabled = true
 
     for option1_name in variants_option1_arr
@@ -59,8 +66,19 @@
         class="disabled"
       {% endif %}
     >
-    <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-      {{ value -}}
+    <label
+      for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+      {% if farbtonklasse %}
+        class="hidden"
+      {% elsif getoent %}
+        id="ModalOpener-color-picker"
+      {% endif %}
+    >
+      {% if getoent %}
+        Farbton wählen
+      {% else %}
+        {{ value -}}
+      {% endif %}
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
   {%- elsif block.settings.picker_type == 'dropdown' -%}
@@ -78,3 +96,7 @@
     </option>
   {%- endif -%}
 {%- endfor -%}
+
+{% if getoent %}
+  {% render '__custom-color-picker', product: product, block: block %}
+{% endif %}
