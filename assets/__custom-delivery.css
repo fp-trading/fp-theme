@@ -1,0 +1,14 @@
+.__delivery-green > * {
+    fill: green !important;
+    color: green !important;
+}
+
+.__delivery-yellow > * {
+    fill: #FFD700 !important;
+    color: #FFD700 !important;
+}
+
+.__delivery-red > * {
+    fill: red !important;
+    color: red !important;
+}
