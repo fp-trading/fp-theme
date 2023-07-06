@@ -1,8 +1,4 @@
-.product__text.color-accent-1,
-.product__text.color-accent-2,
-.product__text.color-background-1,
-.product__text.color-background-2,
-.product__text.color-inverse {
+.product__text {
     padding: 1.5rem;
     border-radius: 1rem;
 }
@@ -10,6 +6,7 @@
 .__product-text-author {
     border-radius: 50%;
     border: .4rem solid;
+    border-color: rgb(var(--color-secondary-button));
     position: relative;
     top: -2rem;
     right: -1rem;
@@ -19,9 +16,4 @@
 
 .product__info-container .__product-text-author {
     top: -3rem;
-}
-
-.product__text.color-accent-1,
-.__product-text-author.color-accent-1 {
-    border-color: rgb(var(--color-secondary-button));
 }
