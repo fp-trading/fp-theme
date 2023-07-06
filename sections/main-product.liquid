@@ -113,7 +113,7 @@
             {%- when 'area' -%}
               {% if product.selected_or_first_available_variant.unit_price_measurement.quantity_value != blank and product.metafields.general.verbrauch != blank %}
                 {% capture area %}
-                  <div class="__area color-{{ section.settings.color_scheme }} gradient{% unless block.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ block.settings.background_style }}{% endunless %}">
+                  <div class="__area color-{{ block.settings.color_scheme }} gradient{% unless block.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ block.settings.background_style }}{% endunless %}">
                     <input id="__consumation" class="hidden" value="{{product.metafields.general.verbrauch }}" />
                     <input id="__variant" class="hidden" value="{{product.selected_or_first_available_variant.id }}" />
                     <h3>Flächenrechner</h3>
@@ -132,7 +132,7 @@
                     <div class="__unit">
                       <span>m<sup>2</sup></span>
                     </div>
-                    <div class="__buttons color-background-2">
+                    <div class="__buttons">
                       <span id="__area-hint" class="__hide __hint caption">{% render 'icon-caret' %} Bitte wählen {% render 'icon-caret' %}</span>
                       <span id="Result-{{ section.id }}" class="caption __hide __result"></span>
                       <button id="__area-calculate-walls" class="button disabled">Nur Wände</button>
