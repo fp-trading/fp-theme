@@ -32,7 +32,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ultramatt_promo_5fe79278-6509-405b-b6b0-f709ddede4e5.jpg",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -43,6 +43,77 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "4d370058-5a09-4dc8-9b95-1e555c755781": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18051859906824__4d370058-5a09-4dc8-9b95-1e555c755781-16886405735075380a-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/youtube.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18051859906824__4d370058-5a09-4dc8-9b95-1e555c755781-16886405735075380a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trust_bauen-wohnen_96c3abb4-5be3-4e01-b296-f733e16de06c.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18051859906824__4d370058-5a09-4dc8-9b95-1e555c755781-16886405735075380a-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SWR_4c_2018.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "8d4b6d39-56af-4f6b-b324-83f4a63bdfa6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RTL_logo_collection_11_rgb.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18051859906824__4d370058-5a09-4dc8-9b95-1e555c755781-16886405735075380a-0",
+        "template--18051859906824__4d370058-5a09-4dc8-9b95-1e555c755781-16886405735075380a-1",
+        "template--18051859906824__4d370058-5a09-4dc8-9b95-1e555c755781-16886405735075380a-2",
+        "8d4b6d39-56af-4f6b-b324-83f4a63bdfa6"
+      ],
+      "custom_css": [
+        ".multicolumn.background-primary .multicolumn-card {background: transparent;}",
+        ".multicolumn-card-spacing {padding-top: 0;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "86785839-febe-4912-b809-fc2584d92b28": {
@@ -240,6 +311,7 @@
   },
   "order": [
     "1397d4fd-05a9-45df-83dd-b6514ea4a6ac",
+    "4d370058-5a09-4dc8-9b95-1e555c755781",
     "86785839-febe-4912-b809-fc2584d92b28",
     "9b65606d-6308-4282-bf63-f524d84c19cc",
     "835e64a6-001a-4aab-934d-0dd88dcb4f30",
