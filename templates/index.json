@@ -1,5 +1,50 @@
 {
   "sections": {
+    "1397d4fd-05a9-45df-83dd-b6514ea4a6ac": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18051859906824__1397d4fd-05a9-45df-83dd-b6514ea4a6ac-1688640400e9048648-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "StoColor Rapid Ultramatt",
+            "heading_size": "h2"
+          }
+        },
+        "template--18051859906824__1397d4fd-05a9-45df-83dd-b6514ea4a6ac-1688640400e9048648-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Die Wandprofi-Empfehlung<\/strong> für höchste Deckkraft und ein streifenfreies Eregebnis!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18051859906824__1397d4fd-05a9-45df-83dd-b6514ea4a6ac-1688640400e9048648-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Produkt",
+            "button_link": "shopify:\/\/products\/stocolorrapidultramatt"
+          }
+        }
+      },
+      "block_order": [
+        "template--18051859906824__1397d4fd-05a9-45df-83dd-b6514ea4a6ac-1688640400e9048648-0",
+        "template--18051859906824__1397d4fd-05a9-45df-83dd-b6514ea4a6ac-1688640400e9048648-1",
+        "template--18051859906824__1397d4fd-05a9-45df-83dd-b6514ea4a6ac-1688640400e9048648-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ultramatt_promo_5fe79278-6509-405b-b6b0-f709ddede4e5.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "86785839-febe-4912-b809-fc2584d92b28": {
       "type": "multicolumn-full-button",
       "blocks": {
@@ -194,6 +239,7 @@
     }
   },
   "order": [
+    "1397d4fd-05a9-45df-83dd-b6514ea4a6ac",
     "86785839-febe-4912-b809-fc2584d92b28",
     "9b65606d-6308-4282-bf63-f524d84c19cc",
     "835e64a6-001a-4aab-934d-0dd88dcb4f30",
