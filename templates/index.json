@@ -32,12 +32,78 @@
             "link_label": "",
             "link": "shopify:\/\/collections\/aktionen"
           }
+        },
+        "34d0a150-9e6e-42c1-bc26-95c50720ac9d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/spachtelmassen.jpg",
+            "title": "Spachtelmasse",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/spachtelmasse"
+          }
+        },
+        "77c27ba9-3a59-4ed8-99da-5b3cf898917f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EFH_1_8fdb53d0-3e17-4b11-8fdf-88130627e4e5.png",
+            "title": "Fassadenfarben",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/fassadenfarbe"
+          }
+        },
+        "1def61ea-0bea-4e49-9b63-5a9bc2c363aa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/betonoptik.png",
+            "title": "Betonoptik",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/betonoptik"
+          }
+        },
+        "3c427df4-27a3-499e-8536-8dd7a85ee1d1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pinsel-rollen.jpg",
+            "title": "Werkzeug",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/werkzeug"
+          }
+        },
+        "3957e4e8-9054-4c49-a851-1f2e6c3db570": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/painter-in-blue-overalls-2021-08-26-15-43-17-utc.jpg",
+            "title": "Grundierung",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/grundierung"
+          }
+        },
+        "6d17d7c7-5cec-408b-8d9a-3e264065d43d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/putze.png",
+            "title": "Putze",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/putze"
+          }
         }
       },
       "block_order": [
         "template--18026029941000__86785839-febe-4912-b809-fc2584d92b28-16886369554b4411ae-0",
         "template--18026029941000__86785839-febe-4912-b809-fc2584d92b28-16886369554b4411ae-1",
-        "template--18026029941000__86785839-febe-4912-b809-fc2584d92b28-16886369554b4411ae-2"
+        "template--18026029941000__86785839-febe-4912-b809-fc2584d92b28-16886369554b4411ae-2",
+        "34d0a150-9e6e-42c1-bc26-95c50720ac9d",
+        "77c27ba9-3a59-4ed8-99da-5b3cf898917f",
+        "1def61ea-0bea-4e49-9b63-5a9bc2c363aa",
+        "3c427df4-27a3-499e-8536-8dd7a85ee1d1",
+        "3957e4e8-9054-4c49-a851-1f2e6c3db570",
+        "6d17d7c7-5cec-408b-8d9a-3e264065d43d"
       ],
       "settings": {
         "title": "",
@@ -47,7 +113,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
