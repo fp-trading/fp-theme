@@ -16,6 +16,7 @@
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
   {{ '__custom-product-text.css' | asset_url | stylesheet_tag }}
   {{ '__custom-product-area.css' | asset_url | stylesheet_tag }}
+  {{ '__custom-delivery.css' | asset_url | stylesheet_tag }}
 
   {%- style -%}
     .section-{{ section.id }}-padding {
@@ -34,6 +35,7 @@
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
   <script src="{{ '__custom-product-area.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ '__custom-delivery.js' | asset_url}}" defer="defer"></script>
   {% if section.settings.image_zoom == 'hover' %}
     <script id="EnableZoomOnHover-main" src="{{ 'magnify.js' | asset_url }}" defer="defer"></script>
   {% endif %}
