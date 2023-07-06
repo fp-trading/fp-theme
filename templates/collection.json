@@ -30,7 +30,7 @@
     "5e569c04-d7db-4684-8cde-094e08d45696": {
       "type": "custom-liquid",
       "custom_css": [
-        "div {max-width: 1200px; margin: auto;}"
+        "div {max-width: 1200px; margin: auto; padding: 0 2rem;}"
       ],
       "settings": {
         "custom_liquid": "{{ collection.description }}",
