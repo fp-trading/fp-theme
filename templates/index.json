@@ -10,25 +10,27 @@
             "title": "Innenfarben",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/innenfarben"
+            "link": "shopify:\/\/collections\/innenfarbe"
           }
         },
         "template--18026029941000__86785839-febe-4912-b809-fc2584d92b28-16886369554b4411ae-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/malervlies_3227702b-a66e-472d-8f8d-40287c3ad649.jpg",
+            "title": "Malervlies",
+            "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/products\/stotap-pro-100-p"
           }
         },
         "template--18026029941000__86785839-febe-4912-b809-fc2584d92b28-16886369554b4411ae-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/angebote_842cc51e-d1fe-4cc4-9d8f-b2db885f93e5.jpg",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/aktionen"
           }
         }
       },
