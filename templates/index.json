@@ -33,7 +33,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/ultramatt_promo_5fe79278-6509-405b-b6b0-f709ddede4e5.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -238,6 +238,60 @@
         "padding_bottom": 36
       }
     },
+    "16886415946d613e29": {
+      "type": "apps",
+      "blocks": {
+        "c6ef7678-343a-4994-a3dd-a11a48992be3": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-card-carousel\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#000",
+            "review_type": "company",
+            "reviews_shown": 20,
+            "header_bg_colour": "#000",
+            "header_colour": "#fff",
+            "header_star_colour": "#fff",
+            "heading_text_colour": "#0E1311",
+            "heading_font": "helvetica_n4",
+            "body_text_colour": "#0E1311",
+            "badge_icon_colour": "#0E1311",
+            "badge_text_colour": "#0E1311",
+            "bg_start_colour": "#ffffff",
+            "bg_end_colour": "#ffffff",
+            "item_border_width": "0px",
+            "item_border_colour": "rgba(0,0,0,0.05)",
+            "item_border_radius": "0px",
+            "item_shadow_size": "10px",
+            "item_shadow_colour": "rgba(0,0,0,0.05)",
+            "enable_rich_snippets": false,
+            "disable_same_customer": false,
+            "logo_colour": "var(--logo-inverted)"
+          }
+        }
+      },
+      "block_order": [
+        "c6ef7678-343a-4994-a3dd-a11a48992be3"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "168864170153d1c695": {
+      "type": "apps",
+      "blocks": {
+        "d428c800-702d-473a-95dc-c653d608ea09": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "VmFhAJ"
+          }
+        }
+      },
+      "block_order": [
+        "d428c800-702d-473a-95dc-c653d608ea09"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "9b65606d-6308-4282-bf63-f524d84c19cc": {
       "type": "rich-text",
       "blocks": {
@@ -313,6 +367,8 @@
     "1397d4fd-05a9-45df-83dd-b6514ea4a6ac",
     "4d370058-5a09-4dc8-9b95-1e555c755781",
     "86785839-febe-4912-b809-fc2584d92b28",
+    "16886415946d613e29",
+    "168864170153d1c695",
     "9b65606d-6308-4282-bf63-f524d84c19cc",
     "835e64a6-001a-4aab-934d-0dd88dcb4f30",
     "b7a3a661-adfd-4a10-b85c-25e76d2c8ee8"
