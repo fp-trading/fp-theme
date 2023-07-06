@@ -269,6 +269,10 @@
         "6f3bc764-b9ca-4649-b19c-acb2a99007a0",
         "f2a14160-6f01-498e-92fe-4d628acd31ec"
       ],
+      "custom_css": [
+        ".multicolumn-card__info > span {font-family: var(--font-heading-family); font-size: 2rem;}",
+        ".media > img {border-radius: 1rem;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",

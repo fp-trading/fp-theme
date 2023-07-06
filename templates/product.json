@@ -71,7 +71,7 @@
           "type": "complementary",
           "settings": {
             "block_heading": "Für's optimale Ergebnis",
-            "make_collapsible_row": false,
+            "make_collapsible_row": true,
             "icon": "price_tag",
             "product_list_limit": 10,
             "products_per_page": 3,
@@ -109,6 +109,15 @@
         "padding_bottom": 12
       }
     },
+    "0374e570-2362-4936-8a0d-7e5fbb32bd7a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\"><h2>Produktbeschreibung zu {{product.title}}<\/h2>\n{{ product.description }}\n<\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -130,6 +139,7 @@
   },
   "order": [
     "main",
+    "0374e570-2362-4936-8a0d-7e5fbb32bd7a",
     "related-products"
   ]
 }
