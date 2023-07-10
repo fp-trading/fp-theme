@@ -39,10 +39,56 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "6dea0c7f-5097-460b-96b5-424449cca0f3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19238953877836__6dea0c7f-5097-460b-96b5-424449cca0f3-16889987811ff02325-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Betonoptik by Farben-Profi",
+            "heading_size": "h1"
+          }
+        },
+        "template--19238953877836__6dea0c7f-5097-460b-96b5-424449cca0f3-16889987811ff02325-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19238953877836__6dea0c7f-5097-460b-96b5-424449cca0f3-16889987811ff02325-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19238953877836__6dea0c7f-5097-460b-96b5-424449cca0f3-16889987811ff02325-0",
+        "template--19238953877836__6dea0c7f-5097-460b-96b5-424449cca0f3-16889987811ff02325-1",
+        "template--19238953877836__6dea0c7f-5097-460b-96b5-424449cca0f3-16889987811ff02325-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/betonoptik.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "9b65606d-6308-4282-bf63-f524d84c19cc",
-    "835e64a6-001a-4aab-934d-0dd88dcb4f30"
+    "835e64a6-001a-4aab-934d-0dd88dcb4f30",
+    "6dea0c7f-5097-460b-96b5-424449cca0f3"
   ]
 }
