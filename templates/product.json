@@ -35,7 +35,9 @@
         "area": {
           "type": "area",
           "settings": {
-            "second_column": true
+            "second_column": true,
+            "color_scheme": "",
+            "background_style": "primary"
           }
         },
         "price": {
@@ -109,7 +111,7 @@
         "d075259a-7e9c-4bed-8f1a-0c40d3660dc3"
       ],
       "custom_css": [
-
+        ".product-form__submit {--color-button: 255, 215, 0; --color-button-text: 66,64,63;}"
       ],
       "settings": {
         "enable_sticky_info": true,
