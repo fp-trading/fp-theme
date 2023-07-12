@@ -108,48 +108,8 @@
         "color_scheme": "",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "9b65606d-6308-4282-bf63-f524d84c19cc": {
-      "type": "rich-text",
-      "blocks": {
-        "template--18026029941000__9b65606d-6308-4282-bf63-f524d84c19cc-168666245956cf7208-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Kontakt",
-            "heading_size": "h1"
-          }
-        },
-        "template--18026029941000__9b65606d-6308-4282-bf63-f524d84c19cc-168666245956cf7208-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Sie haben eine Frage zu einem Produkt, brauchen Beratung oder haben Interesse an einem individuellen Angebot? Dann screiben Sie uns. Wir antworten auf jede Nachricht innerhalb eines Werktages.<\/p><p>Nutzen Sie unser Kontaktformular oder schreiben uns eine E-Mail an: <a href=\"mailto:info@farben-profi.de\" title=\"mailto:info@farben-profi.de\">info@farben-profi.de<\/a><\/p><p>Sie wünschen ein persönliches Gespräch? Rufen Sie gerne an: <\/p><p><a href=\"tel:+4962333042660\" title=\"tel:+4962333042660\">06233\/3042660<\/a><\/p><p>(Mo – Fr: 9:00 – 17:00 Uhr)<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18026029941000__9b65606d-6308-4282-bf63-f524d84c19cc-168666245956cf7208-0",
-        "template--18026029941000__9b65606d-6308-4282-bf63-f524d84c19cc-168666245956cf7208-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "835e64a6-001a-4aab-934d-0dd88dcb4f30": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "background-2",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "e0ed4a11-cec7-4702-a97d-e276b7705200": {
@@ -234,13 +194,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "9b65606d-6308-4282-bf63-f524d84c19cc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18026029941000__9b65606d-6308-4282-bf63-f524d84c19cc-168666245956cf7208-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kontakt",
+            "heading_size": "h1"
+          }
+        },
+        "template--18026029941000__9b65606d-6308-4282-bf63-f524d84c19cc-168666245956cf7208-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sie haben eine Frage zu einem Produkt, brauchen Beratung oder haben Interesse an einem individuellen Angebot? Dann screiben Sie uns. Wir antworten auf jede Nachricht innerhalb eines Werktages.<\/p><p>Nutzen Sie unser Kontaktformular oder schreiben uns eine E-Mail an: <a href=\"mailto:info@farben-profi.de\" title=\"mailto:info@farben-profi.de\">info@farben-profi.de<\/a><\/p><p>Sie wünschen ein persönliches Gespräch? Rufen Sie gerne an: <\/p><p><a href=\"tel:+4962333042660\" title=\"tel:+4962333042660\">06233\/3042660<\/a><\/p><p>(Mo – Fr: 9:00 – 17:00 Uhr)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18026029941000__9b65606d-6308-4282-bf63-f524d84c19cc-168666245956cf7208-0",
+        "template--18026029941000__9b65606d-6308-4282-bf63-f524d84c19cc-168666245956cf7208-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "835e64a6-001a-4aab-934d-0dd88dcb4f30": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "6dea0c7f-5097-460b-96b5-424449cca0f3",
     "4074b986-155a-41b0-bae7-cabbc33f16b0",
+    "e0ed4a11-cec7-4702-a97d-e276b7705200",
     "9b65606d-6308-4282-bf63-f524d84c19cc",
-    "835e64a6-001a-4aab-934d-0dd88dcb4f30",
-    "e0ed4a11-cec7-4702-a97d-e276b7705200"
+    "835e64a6-001a-4aab-934d-0dd88dcb4f30"
   ]
 }
