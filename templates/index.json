@@ -45,6 +45,73 @@
         "padding_bottom": 36
       }
     },
+    "4074b986-155a-41b0-bae7-cabbc33f16b0": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19238953877836__4074b986-155a-41b0-bae7-cabbc33f16b0-1689172567b2546a13-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yt_logo_rgb_light.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b496dd42-5ba9-429a-99e0-e6e25db98037": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trust_bauen-wohnen.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "687893f7-b302-4951-9f61-cc1a7582beb6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SWR_4c_2018.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "4063eb3d-f19f-41dc-8865-c503f1088939": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RTL_logo_collection_11_rgb.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19238953877836__4074b986-155a-41b0-bae7-cabbc33f16b0-1689172567b2546a13-0",
+        "b496dd42-5ba9-429a-99e0-e6e25db98037",
+        "687893f7-b302-4951-9f61-cc1a7582beb6",
+        "4063eb3d-f19f-41dc-8865-c503f1088939"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "9b65606d-6308-4282-bf63-f524d84c19cc": {
       "type": "rich-text",
       "blocks": {
@@ -88,6 +155,7 @@
   },
   "order": [
     "6dea0c7f-5097-460b-96b5-424449cca0f3",
+    "4074b986-155a-41b0-bae7-cabbc33f16b0",
     "9b65606d-6308-4282-bf63-f524d84c19cc",
     "835e64a6-001a-4aab-934d-0dd88dcb4f30"
   ]
