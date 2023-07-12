@@ -151,12 +151,96 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e0ed4a11-cec7-4702-a97d-e276b7705200": {
+      "type": "multicolumn-full-button",
+      "blocks": {
+        "template--19238953877836__e0ed4a11-cec7-4702-a97d-e276b7705200-1689172676da0cb5dc-0": {
+          "type": "column",
+          "settings": {
+            "title": "Streichen",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "9ce5e075-5307-4381-8e7c-afa40b92a67c": {
+          "type": "column",
+          "settings": {
+            "title": "Betonoptik",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "8c8d6a58-5f3b-4cb5-96eb-b2480347354a": {
+          "type": "column",
+          "settings": {
+            "title": "Angebote",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "875f3ffb-28a7-4ae3-9330-9986ecd59ba2": {
+          "type": "column",
+          "settings": {
+            "title": "Tapezieren",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c62ecda2-5bbe-419e-bc31-8ef34d332e9e": {
+          "type": "column",
+          "settings": {
+            "title": "Spachteln und Verputzen",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "69bae7b2-45fe-4309-9cac-c400d81a0c58": {
+          "type": "column",
+          "settings": {
+            "title": "Lackieren",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19238953877836__e0ed4a11-cec7-4702-a97d-e276b7705200-1689172676da0cb5dc-0",
+        "9ce5e075-5307-4381-8e7c-afa40b92a67c",
+        "8c8d6a58-5f3b-4cb5-96eb-b2480347354a",
+        "875f3ffb-28a7-4ae3-9330-9986ecd59ba2",
+        "c62ecda2-5bbe-419e-bc31-8ef34d332e9e",
+        "69bae7b2-45fe-4309-9cac-c400d81a0c58"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "6dea0c7f-5097-460b-96b5-424449cca0f3",
     "4074b986-155a-41b0-bae7-cabbc33f16b0",
     "9b65606d-6308-4282-bf63-f524d84c19cc",
-    "835e64a6-001a-4aab-934d-0dd88dcb4f30"
+    "835e64a6-001a-4aab-934d-0dd88dcb4f30",
+    "e0ed4a11-cec7-4702-a97d-e276b7705200"
   ]
 }
