@@ -118,6 +118,7 @@
         "template--19238953877836__e0ed4a11-cec7-4702-a97d-e276b7705200-1689172676da0cb5dc-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/pinsel-rollen.jpg",
             "title": "Streichen",
             "text": "",
             "link_label": "",
@@ -127,6 +128,7 @@
         "875f3ffb-28a7-4ae3-9330-9986ecd59ba2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/tapezierwerkzeug.jpg",
             "title": "Tapezieren",
             "text": "",
             "link_label": "",
@@ -136,6 +138,7 @@
         "8c8d6a58-5f3b-4cb5-96eb-b2480347354a": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/pakete.jpg",
             "title": "Angebote",
             "text": "",
             "link_label": "",
@@ -145,6 +148,7 @@
         "c62ecda2-5bbe-419e-bc31-8ef34d332e9e": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/spachtelwerkzeug.jpg",
             "title": "Spachteln & Verputzen",
             "text": "",
             "link_label": "",
