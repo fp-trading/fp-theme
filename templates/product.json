@@ -19,7 +19,7 @@
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle",
             "second_column": true,
-            "color_scheme": "inverse",
+            "color_scheme": "accent-2",
             "image": "shopify:\/\/shop_images\/Portrait-Andreas-Neufeld-Der-Wandprofi.jpg"
           }
         },
