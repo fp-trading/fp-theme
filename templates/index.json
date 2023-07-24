@@ -47,6 +47,7 @@
     },
     "4074b986-155a-41b0-bae7-cabbc33f16b0": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--19238953877836__4074b986-155a-41b0-bae7-cabbc33f16b0-1689172567b2546a13-0": {
           "type": "column",
@@ -60,6 +61,7 @@
         },
         "b496dd42-5ba9-429a-99e0-e6e25db98037": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/trust_bauen-wohnen.png",
             "title": "",
@@ -70,6 +72,7 @@
         },
         "687893f7-b302-4951-9f61-cc1a7582beb6": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/SWR_4c_2018.jpg",
             "title": "",
