@@ -12,3 +12,9 @@
     fill: red !important;
     color: red !important;
 }
+
+.__delivery-green,
+.__delivery-yellow,
+.__delivery-red {
+    font-family: var(--font-body-family);
+}
