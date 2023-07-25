@@ -16,5 +16,5 @@
 .__delivery-green,
 .__delivery-yellow,
 .__delivery-red {
-    font-family: var(--font-body-family);
+    font-family: var(--font-body-family) !important;
 }
