@@ -3511,13 +3511,13 @@ details-disclosure > details {
     width: 250px;
     padding: 1rem;
     text-decoration: none;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(var(--color-foreground),0.7);
   }
 
   .header__icon > span:after {
     content: "Suche...";
     padding-left: 1rem;
-    color: rgb(var(--color-foreground));
+    color: rgb(var(--color-background));
   }
 
   .header__icon span {
