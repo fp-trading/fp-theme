@@ -3510,7 +3510,7 @@ details-disclosure > details {
     width: 250px;
     padding: 1rem;
     text-decoration: none;
-    background-color: rgba(var(--color-foreground),0.8);
+    background-color: rgb(var(--color-foreground));
   }
 
   .header__icon > span:after {
