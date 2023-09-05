@@ -3517,14 +3517,10 @@ details-disclosure > details {
     content: "Suche...";
     padding-left: 1rem;
     color: rgb(var(--color-background));
-    fill: rgb(var(--color-background));
+    fill: rgb(var(--color-background)) !important;
   }
 
   .header__icon span {
     justify-content: flex-start;
-  }
-
-  .header__icon .icon {
-    fill: rgb(var(--color-background)) !important;
   }
 }
