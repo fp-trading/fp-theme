@@ -2,7 +2,6 @@
   "sections": {
     "4ef6dd0b-672e-419e-a67f-2c47d2e3ada8": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -10,8 +9,8 @@
         "show_description": false,
         "description_style": "body",
         "collection": "betonoptik",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "products_to_show": 3,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
@@ -60,6 +59,7 @@
         "template--19238953877836__6dea0c7f-5097-460b-96b5-424449cca0f3-16889987811ff02325-1",
         "template--19238953877836__6dea0c7f-5097-460b-96b5-424449cca0f3-16889987811ff02325-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/betonoptik.webp",
         "height": "adapt",
