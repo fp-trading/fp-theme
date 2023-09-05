@@ -3506,7 +3506,7 @@ details-disclosure > details {
 
 @media screen and (min-width: 990px) {
   .header__search summary {
-    border: 2px solid;
+    border: 2px solid rgb(var(--color-foreground, 0.7));
     border-radius: var(--inputs-radius);
     width: 250px;
     padding: 1rem;
