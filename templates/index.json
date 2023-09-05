@@ -367,6 +367,7 @@
         "619a93b5-bbaf-42d5-accf-41022f2481db",
         "69bae7b2-45fe-4309-9cac-c400d81a0c58"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {text-align: center; width: 100%;}"
       ],
