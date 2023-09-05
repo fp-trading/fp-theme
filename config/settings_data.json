@@ -33,14 +33,14 @@
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
     "inputs_shadow_blur": 5,
-    "card_style": "standard",
+    "card_style": "card",
     "card_image_padding": 0,
     "card_text_alignment": "left",
     "card_color_scheme": "accent-1",
     "card_border_thickness": 0,
-    "card_border_opacity": 10,
+    "card_border_opacity": 20,
     "card_corner_radius": 10,
-    "card_shadow_opacity": 0,
+    "card_shadow_opacity": 20,
     "card_shadow_horizontal_offset": 0,
     "card_shadow_vertical_offset": 4,
     "card_shadow_blur": 5,
@@ -172,11 +172,11 @@
       "accent-1": {
         "settings": {
           "background": "{{ shop.brand.colors.primary[0].foreground }}",
-          "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(239, 239, 239, 1) 100%)",
-          "text": "#000000",
-          "button": "#000000",
+          "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(252, 252, 252, 1) 100%)",
+          "text": "{{ shop.brand.colors.secondary[0].foreground }}",
+          "button": "{{ shop.brand.colors.secondary[0].foreground }}",
           "button_label": "{{ shop.brand.colors.primary[0].foreground }}",
-          "secondary_button_label": "#000000",
+          "secondary_button_label": "{{ shop.brand.colors.secondary[0].foreground }}",
           "shadow": "#000000"
         }
       },

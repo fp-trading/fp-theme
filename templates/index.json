@@ -13,7 +13,7 @@
         "template--19238953877836__0f8ad26e-60a4-4eb4-b428-1ae2266d011f-1689600360a7f7d6c7-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Ich bin <strong>Andreas Neufeld<\/strong> und leidenschaftlicher Maler. Zusammen mit meinem Geschäftspartner Andreas Thiessen betreiben wir diesen Onlineshop.<\/p><p>Auf meinem Youtube-Kanal \"<a href=\"https:\/\/www.youtube.com\/c\/IhrWandundDeckenprofiAndreasNeufeldBeindersheim\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/c\/IhrWandundDeckenprofiAndreasNeufeldBeindersheim\">Der Wandprofi<\/a>\" finden Sie zudem zahlreiche Videos mit Tipps und Tricks rund um die Themen Malern und Lackieren. Mit mehr als <strong>70.000 Abonnenten<\/strong> und über <strong>27 Millionen Aufrufe<\/strong> bin ich ein bekannter Youtuber im Bereich Handwerk.<\/p><p><em>Viel Erfolg bei Ihrem Projekt!<\/em><\/p>",
+            "text": "<p>Ich bin <strong>Andreas Neufeld<\/strong> und leidenschaftlicher Maler.<\/p><p>Auf meinem Youtube-Kanal \"<a href=\"https:\/\/www.youtube.com\/c\/IhrWandundDeckenprofiAndreasNeufeldBeindersheim\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/c\/IhrWandundDeckenprofiAndreasNeufeldBeindersheim\">Der Wandprofi<\/a>\" finden Sie zudem zahlreiche Videos mit Tipps und Tricks rund um die Themen Malern und Lackieren. Mit mehr als <strong>70.000 Abonnenten<\/strong> und über <strong>27 Millionen Aufrufe<\/strong> bin ich ein bekannter Youtuber im Bereich Handwerk.<\/p><p><em>Viel Erfolg bei Ihrem Projekt!<\/em><\/p>",
             "text_style": "body"
           }
         },
@@ -39,7 +39,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "accent-2",
+        "color_scheme": "background-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -48,6 +48,11 @@
     },
     "4ef6dd0b-672e-419e-a67f-2c47d2e3ada8": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-align: center;}",
+        "h3 {font-size: 2rem; text-align: center;}",
+        ".price > div {width: 100%; text-align: center;}"
+      ],
       "settings": {
         "title": "{{ section.settings.collection.title }}",
         "heading_size": "h1",
@@ -60,7 +65,7 @@
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -262,6 +267,9 @@
         "c62ecda2-5bbe-419e-bc31-8ef34d332e9e",
         "619a93b5-bbaf-42d5-accf-41022f2481db",
         "69bae7b2-45fe-4309-9cac-c400d81a0c58"
+      ],
+      "custom_css": [
+        "h2 {text-align: center; width: 100%;}"
       ],
       "settings": {
         "title": "Werkzeug",
