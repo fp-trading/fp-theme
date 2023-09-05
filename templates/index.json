@@ -13,7 +13,7 @@
         "template--19238953877836__0f8ad26e-60a4-4eb4-b428-1ae2266d011f-1689600360a7f7d6c7-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Ich bin <strong>Andreas Neufeld<\/strong> und leidenschaftlicher Maler.<\/p><p>Auf meinem Youtube-Kanal \"<a href=\"https:\/\/www.youtube.com\/c\/IhrWandundDeckenprofiAndreasNeufeldBeindersheim\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/c\/IhrWandundDeckenprofiAndreasNeufeldBeindersheim\">Der Wandprofi<\/a>\" finden Sie zudem zahlreiche Videos mit Tipps und Tricks rund um die Themen Malern und Lackieren. Mit mehr als <strong>70.000 Abonnenten<\/strong> und über <strong>27 Millionen Aufrufe<\/strong> bin ich ein bekannter Youtuber im Bereich Handwerk.<\/p><p><em>Viel Erfolg bei Ihrem Projekt!<\/em><\/p>",
+            "text": "<p>Auf meinem Youtube-Kanal \"<a href=\"https:\/\/www.youtube.com\/c\/IhrWandundDeckenprofiAndreasNeufeldBeindersheim\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/c\/IhrWandundDeckenprofiAndreasNeufeldBeindersheim\">Der Wandprofi<\/a>\" finden Sie zudem zahlreiche Videos mit Tipps und Tricks rund um die Themen Malern und Lackieren. Mit <strong>80.000 Abonnenten<\/strong> und über <strong>30 Millionen Aufrufen<\/strong> bin ich ein bekannter Youtuber im Bereich Handwerk.<\/p><p><em>Viel Erfolg bei Ihrem Projekt!<\/em><\/p>",
             "text_style": "body"
           }
         },
@@ -34,7 +34,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Portrait-Andreas-Neufeld-Der-Wandprofi.jpg",
         "height": "small",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
