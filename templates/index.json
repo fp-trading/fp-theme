@@ -81,8 +81,13 @@
     },
     "9a45b8c4-09b1-46c7-b0c3-f773e783f217": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-align: center;}",
+        "h3 {font-size: 2rem; text-align: center;}",
+        ".price > div {width: 100%; text-align: center;}"
+      ],
       "settings": {
-        "title": "{{ section.settings.collection.title }}",
+        "title": "Für den perfekten Anstrich",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -109,8 +114,13 @@
     },
     "250f4356-6630-49c5-b54b-fe0cba5e9965": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-align: center;}",
+        "h3 {font-size: 2rem; text-align: center;}",
+        ".price > div {width: 100%; text-align: center;}"
+      ],
       "settings": {
-        "title": "{{ section.settings.collection.title }}",
+        "title": "Für sauberes Abkleben",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
