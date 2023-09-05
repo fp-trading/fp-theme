@@ -3511,7 +3511,7 @@ details-disclosure > details {
     width: 250px;
     padding: 1rem;
     text-decoration: none;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.5);
   }
 
   .header__icon > span:after {
