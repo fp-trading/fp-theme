@@ -92,9 +92,9 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "werkzeug",
-        "products_to_show": 3,
-        "columns_desktop": 3,
+        "collection": "streichen",
+        "products_to_show": 4,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
@@ -334,7 +334,6 @@
         "619a93b5-bbaf-42d5-accf-41022f2481db",
         "69bae7b2-45fe-4309-9cac-c400d81a0c58"
       ],
-      "disabled": true,
       "custom_css": [
         "h2 {text-align: center; width: 100%;}"
       ],
