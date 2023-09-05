@@ -79,23 +79,66 @@
     max-width: 45%;
     width: calc(45% - var(--grid-desktop-horizontal-spacing) / 2);
   }
+
+  .product--small:not(.product--no-media) .product__info-wrapper:nth-child(2):nth-last-child(1) {
+    max-width: 67%;
+    width: calc(67% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+
+  .product--small:not(.product--no-media) .product__info-wrapper:nth-child(2):nth-last-child(2),
+  .product--small:not(.product--no-media) .product__info-wrapper:nth-child(3):nth-last-child(1),
+  .product--small:not(.product--no-media) .product__media-wrapper {
+    max-width: 30%;
+    width: calc(30% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+
+  .product--small:not(.product--no-media) .product__info-wrapper:nth-child(2):nth-last-child(2) {
+    max-width: 40%;
+    width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
 }
 
-.product--small:not(.product--no-media) .product__info-wrapper:nth-child(2):nth-last-child(1) {
-  max-width: 67%;
-  width: calc(67% - var(--grid-desktop-horizontal-spacing) / 2);
+@media screen and (max-width: 989px) {
+  .product--stacked > div:first-child:nth-last-child(3) {
+    order: 1;
+  }
+
+  .product--stacked > div:nth-child(2):nth-last-child(2) {
+    order: 3;
+  }
+
+  .product--stacked > div:nth-child(3):last-child {
+    order: 2;
+  }
 }
 
-.product--small:not(.product--no-media) .product__info-wrapper:nth-child(2):nth-last-child(2),
-.product--small:not(.product--no-media) .product__info-wrapper:nth-child(3):nth-last-child(1),
-.product--small:not(.product--no-media) .product__media-wrapper {
-  max-width: 30%;
-  width: calc(30% - var(--grid-desktop-horizontal-spacing) / 2);
-}
+@media screen and (min-width: 751px) and (max-width: 989px) {
+  .product--stacked {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      'gallery info'
+      'subtitle info';
+  }
 
-.product--small:not(.product--no-media) .product__info-wrapper:nth-child(2):nth-last-child(2) {
-  max-width: 40%;
-  width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2);
+  .product--stacked > div:first-child:nth-last-child(3),
+  .product--stacked > div:first-child:nth-last-child(2) {
+    grid-area: gallery;
+    width: 100%;
+  }
+
+  .product--stacked > div:nth-child(2):nth-last-child(2),
+  .product--stacked > div:nth-child(2):last-child {
+    grid-area: info;
+    width: 100%;
+  }
+
+  .product--stacked > div:nth-child(3):last-child {
+    grid-area: subtitle;
+    width: 100%;
+    padding: 0;
+  }
 }
 
 /* Dynamic checkout */
