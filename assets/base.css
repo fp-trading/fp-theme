@@ -3524,6 +3524,6 @@ details-disclosure > details {
   }
 
   .header__search path {
-    fill: black;
+    fill: black !important;
   }
 }
