@@ -3,7 +3,7 @@
     "4ef6dd0b-672e-419e-a67f-2c47d2e3ada8": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
+        "title": "{{ section.settings.collection.title }}",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
