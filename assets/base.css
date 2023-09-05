@@ -3503,3 +3503,23 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+@media screen and (min-width: 990px) {
+  .header__search summary {
+    border: 2px solid;
+    border-radius: var(--inputs-radius);
+    width: 250px;
+    padding: 1rem;
+    text-decoration: none;
+  }
+
+  .header__icon > span:after {
+    content: "Search...";
+    padding-left: 1rem;
+    color: rgb(var(--color-foreground));
+  }
+
+  .header__icon span {
+    justify-content: flex-start;
+  }
+}
