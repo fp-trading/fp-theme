@@ -3514,7 +3514,7 @@ details-disclosure > details {
   }
 
   .header__icon > span:after {
-    content: "Search...";
+    content: "Suche...";
     padding-left: 1rem;
     color: rgb(var(--color-foreground));
   }
