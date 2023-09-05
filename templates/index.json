@@ -79,6 +79,62 @@
         "padding_bottom": 36
       }
     },
+    "9a45b8c4-09b1-46c7-b0c3-f773e783f217": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "werkzeug",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "250f4356-6630-49c5-b54b-fe0cba5e9965": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "abkleben",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "6dea0c7f-5097-460b-96b5-424449cca0f3": {
       "type": "image-with-text",
       "blocks": {
@@ -268,6 +324,7 @@
         "619a93b5-bbaf-42d5-accf-41022f2481db",
         "69bae7b2-45fe-4309-9cac-c400d81a0c58"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {text-align: center; width: 100%;}"
       ],
@@ -332,6 +389,8 @@
   "order": [
     "0f8ad26e-60a4-4eb4-b428-1ae2266d011f",
     "4ef6dd0b-672e-419e-a67f-2c47d2e3ada8",
+    "9a45b8c4-09b1-46c7-b0c3-f773e783f217",
+    "250f4356-6630-49c5-b54b-fe0cba5e9965",
     "6dea0c7f-5097-460b-96b5-424449cca0f3",
     "4074b986-155a-41b0-bae7-cabbc33f16b0",
     "e0ed4a11-cec7-4702-a97d-e276b7705200",
