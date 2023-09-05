@@ -145,6 +145,39 @@
         "padding_bottom": 36
       }
     },
+    "a3435df8-8763-49a3-90fc-40ae24fe849c": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-align: center;}",
+        "h3 {font-size: 2rem; text-align: center;}",
+        ".price > div {width: 100%; text-align: center;}"
+      ],
+      "settings": {
+        "title": "Für sauberes Abkleben",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "tapezieren",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "6dea0c7f-5097-460b-96b5-424449cca0f3": {
       "type": "image-with-text",
       "blocks": {
@@ -400,6 +433,7 @@
     "4ef6dd0b-672e-419e-a67f-2c47d2e3ada8",
     "9a45b8c4-09b1-46c7-b0c3-f773e783f217",
     "250f4356-6630-49c5-b54b-fe0cba5e9965",
+    "a3435df8-8763-49a3-90fc-40ae24fe849c",
     "6dea0c7f-5097-460b-96b5-424449cca0f3",
     "4074b986-155a-41b0-bae7-cabbc33f16b0",
     "e0ed4a11-cec7-4702-a97d-e276b7705200",
