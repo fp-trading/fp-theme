@@ -46,6 +46,73 @@
         "padding_bottom": 36
       }
     },
+    "4074b986-155a-41b0-bae7-cabbc33f16b0": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19238953877836__4074b986-155a-41b0-bae7-cabbc33f16b0-1689172567b2546a13-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yt_logo_rgb_light.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b496dd42-5ba9-429a-99e0-e6e25db98037": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trust_bauen-wohnen.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "687893f7-b302-4951-9f61-cc1a7582beb6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SWR_4c_2018.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "4063eb3d-f19f-41dc-8865-c503f1088939": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RTL_logo_collection_11_rgb.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19238953877836__4074b986-155a-41b0-bae7-cabbc33f16b0-1689172567b2546a13-0",
+        "b496dd42-5ba9-429a-99e0-e6e25db98037",
+        "687893f7-b302-4951-9f61-cc1a7582beb6",
+        "4063eb3d-f19f-41dc-8865-c503f1088939"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "4ef6dd0b-672e-419e-a67f-2c47d2e3ada8": {
       "type": "featured-collection",
       "custom_css": [
@@ -225,76 +292,6 @@
         "padding_bottom": 36
       }
     },
-    "4074b986-155a-41b0-bae7-cabbc33f16b0": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19238953877836__4074b986-155a-41b0-bae7-cabbc33f16b0-1689172567b2546a13-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/yt_logo_rgb_light.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "b496dd42-5ba9-429a-99e0-e6e25db98037": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/trust_bauen-wohnen.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "687893f7-b302-4951-9f61-cc1a7582beb6": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SWR_4c_2018.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "4063eb3d-f19f-41dc-8865-c503f1088939": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/RTL_logo_collection_11_rgb.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19238953877836__4074b986-155a-41b0-bae7-cabbc33f16b0-1689172567b2546a13-0",
-        "b496dd42-5ba9-429a-99e0-e6e25db98037",
-        "687893f7-b302-4951-9f61-cc1a7582beb6",
-        "4063eb3d-f19f-41dc-8865-c503f1088939"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "e0ed4a11-cec7-4702-a97d-e276b7705200": {
       "type": "multicolumn-full-button",
       "blocks": {
@@ -431,12 +428,12 @@
   },
   "order": [
     "0f8ad26e-60a4-4eb4-b428-1ae2266d011f",
+    "4074b986-155a-41b0-bae7-cabbc33f16b0",
     "4ef6dd0b-672e-419e-a67f-2c47d2e3ada8",
     "9a45b8c4-09b1-46c7-b0c3-f773e783f217",
     "250f4356-6630-49c5-b54b-fe0cba5e9965",
     "a3435df8-8763-49a3-90fc-40ae24fe849c",
     "6dea0c7f-5097-460b-96b5-424449cca0f3",
-    "4074b986-155a-41b0-bae7-cabbc33f16b0",
     "e0ed4a11-cec7-4702-a97d-e276b7705200",
     "9b65606d-6308-4282-bf63-f524d84c19cc",
     "835e64a6-001a-4aab-934d-0dd88dcb4f30"
