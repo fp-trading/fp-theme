@@ -3522,8 +3522,4 @@ details-disclosure > details {
   .header__icon span {
     justify-content: flex-start;
   }
-
-  .header__search path {
-    fill: black !important;
-  }
 }
