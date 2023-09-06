@@ -171,6 +171,7 @@
                     assign video_alt = block.settings.video.alt | default: block.settings.description
                     assign alt = 'sections.video.load_video' | t: description: video_alt | escape
                     assign poster = block.settings.cover_image | default: shop.brand.cover_image
+                    assign id_length = product.metafields.custom.video_id | size
   
                     if block.settings.video != null
                       assign ratio_diff = block.settings.video.aspect_ratio | minus: poster.aspect_ratio | abs
@@ -243,7 +244,7 @@
                       </button>
                       <template>
                         {%- if block.settings.video == null and block.settings.video_url != null or product.metafields.custom.video_id != blank -%}
-                          {%- if block.settings.video_url.type == 'youtube' -%}
+                          {%- if block.settings.video_url.type == 'youtube' or id_length != 9 -%}
                             <iframe
                               src="https://www.youtube.com/embed/{{ video_id }}?enablejsapi=1&autoplay=1"
                               class="js-youtube"
