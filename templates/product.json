@@ -85,6 +85,15 @@
             "image_ratio": "square",
             "enable_quick_add": true
           }
+        },
+        "a09b19c2-d7ed-43c2-ad73-d386cebb9398": {
+          "type": "video",
+          "settings": {
+            "video": "{{ product.metafields.custom.video.value }}",
+            "video_url": "",
+            "description": "",
+            "second_column": true
+          }
         }
       },
       "block_order": [
@@ -98,7 +107,8 @@
         "quantity_selector",
         "buy_buttons",
         "share",
-        "d075259a-7e9c-4bed-8f1a-0c40d3660dc3"
+        "d075259a-7e9c-4bed-8f1a-0c40d3660dc3",
+        "a09b19c2-d7ed-43c2-ad73-d386cebb9398"
       ],
       "settings": {
         "enable_sticky_info": true,
