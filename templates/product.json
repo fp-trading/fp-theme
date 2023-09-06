@@ -91,7 +91,7 @@
           "settings": {
             "video": "{{ product.metafields.custom.video.value }}",
             "video_url": "",
-            "cover_image": "{{ product.metafields.custom.video.value }}",
+            "cover_image": "shopify:\/\/shop_images\/background_f8e65885-eb6b-4d04-899f-8de2b14e4914.webp",
             "description": "{{ product.title }} (Produktvideo)",
             "second_column": true
           }
