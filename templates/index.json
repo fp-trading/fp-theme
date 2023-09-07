@@ -13,16 +13,16 @@
         "template--19238953877836__0f8ad26e-60a4-4eb4-b428-1ae2266d011f-1689600360a7f7d6c7-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Auf meinem Youtube-Kanal \"<a href=\"https:\/\/www.youtube.com\/c\/IhrWandundDeckenprofiAndreasNeufeldBeindersheim\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/c\/IhrWandundDeckenprofiAndreasNeufeldBeindersheim\">Der Wandprofi<\/a>\" finden Sie zudem zahlreiche Videos mit Tipps und Tricks rund um die Themen Malern und Lackieren. Mit <strong>80.000 Abonnenten<\/strong> und über <strong>30 Millionen Aufrufen<\/strong> bin ich ein bekannter Youtuber im Bereich Handwerk.<\/p><p><em>Viel Erfolg bei Ihrem Projekt!<\/em><\/p>",
+            "text": "<p>Herzlich willkommen auf meinem Onlineshop. Hier findest du meine Betonoptik und passendes Werkzeug für deine Malerarbeiten.<\/p><p><em>Viel Erfolg bei deinem Projekt!<\/em><\/p><p><\/p><p><\/p>",
             "text_style": "body"
           }
         },
         "template--19238953877836__0f8ad26e-60a4-4eb4-b428-1ae2266d011f-1689600360a7f7d6c7-2": {
           "type": "button",
           "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false
+            "button_label": "Zur Betonoptik",
+            "button_link": "shopify:\/\/products\/betonoptik-paket",
+            "button_style_secondary": true
           }
         }
       },
