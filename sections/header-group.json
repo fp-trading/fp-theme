@@ -18,8 +18,8 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".mega-menu__link--level-2 {font-family: var(--font-heading-family); font-size: 1.7rem;}",
-        ".list-unstyled > li:last-child {font-family: var(--font-heading-family);}"
+        ".mega-menu__link--level-2 {font-family: var(--font-heading-family); font-size: 1.7rem; font-weight: normal;}",
+        ".list-unstyled > li:last-child {font-family: var(--font-heading-family); font-weight: normal;}"
       ],
       "settings": {
         "logo_position": "top-center",
