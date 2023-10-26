@@ -60,15 +60,19 @@
           <div class="color-picker-colors">
             <h3>StoColor System</h3>
             {% for color in colors %}
-              <div class="color-picker-color" onclick="goToCategory('{{ color }}', true)">
-                <div class="{{ color | downcase }}"></div>
+              <div
+                class="color-picker-color {{ color | downcase }} button"
+                onclick="goToCategory('{{ color }}', true)"
+              >
                 {{ color }}
               </div>
             {% endfor %}
           </div>
           <h3>Weitere Farbsysteme</h3>
           {% for category in categories %}
-            <div class="color-picker-category" onclick="goToCategory('{{ category }}')">{{ category }}</div>
+            <div class="color-picker-category button" onclick="goToCategory('{{ category }}')">
+              {{ category }}
+            </div>
           {% endfor %}
         </div>
         <div id="color-picker-category-content">

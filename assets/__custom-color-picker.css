@@ -83,67 +83,58 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 1rem;
+    margin: 0 4px;
 }
 
 .color-picker-color {
     flex: 1 1;
     min-width: 7rem;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    border-radius: 1rem;
-    background-color: rgb(var(--color-base-background-2));
-    text-align: center;
 }
 
 .color-picker-colors > h3 {
     flex-basis: 100%;
 }
 
-.color-picker-color > div {
-    display: block;
-    width: 100%;
-    height: 4rem;
-    border-radius: 1rem 1rem 0 0;
-    background-color: black;
+.color-picker-color.weiß {
+  --color-button-text: 18, 18, 18;
+  --color-button: 252, 252, 252;
 }
 
-.color-picker-color > .weiß {
-    background-color: #FCFCFC;
+.color-picker-color.gelb {
+  --color-button-text: 18, 18, 18;
+  --color-button: 255, 224, 0;
 }
 
-.color-picker-color > .gelb {
-    background-color: #FFE000;
+.color-picker-color.orange {
+  --color-button-text: 18, 18, 18;
+  --color-button: 255, 160, 0;
 }
 
-.color-picker-color > .orange {
-    background-color: #FFA000;
+.color-picker-color.rot {
+  --color-button: 224, 64, 0;
 }
 
-.color-picker-color > .rot {
-    background-color: #E04000;
+.color-picker-color.violett {
+  --color-button: 112, 0, 176;
 }
 
-.color-picker-color > .violett {
-    background-color: #7000B0;
-}
-
-.color-picker-color > .blau {
+.color-picker-color.blau {
+  --color-button: 0, 128, 208;
     background-color: #0080D0;
 }
 
-.color-picker-color > .grün {
-    background-color: #00D060;
+.color-picker-color.grün {
+  --color-button: 0, 208, 96;
 }
 
-.color-picker-color > .grau {
-    background-color: #808080;
+.color-picker-color.grau {
+  --color-button: 128, 128, 128;
 }
 
 .color-picker-category {
-    background-color: rgb(var(--color-base-background-2));
     border-radius: 1rem;
     padding: 1rem 2rem;
+    margin: 0 4px;
 }
 
 #color-picker-category-content {
@@ -214,4 +205,8 @@
   padding-left: 1rem;
   font-weight: bold;
   background-color: rgb(var(--color-base-background-2));
+}
+
+.color-picker-color > span {
+  padding: .5rem 0;
 }

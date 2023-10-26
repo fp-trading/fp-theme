@@ -66,13 +66,15 @@
 
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
-      {% if product.metafields.sto.application != blank %}
-        {% render '__custom-sto-applications', applications: product.metafields.sto.application.value %}
-      {% endif %}
-      {% if product.metafields.sto.quality != blank %}
-        {% render '__custom-sto-qualities', qualities: product.metafields.sto.quality.value %}
-      {% endif %}
-      {% render 'product-media-gallery', variant_images: variant_images %}
+      {% liquid
+        if product.metafields.sto.application != blank
+          render '__custom-sto-applications', applications: product.metafields.sto.application.value
+        endif
+        if product.metafields.sto.quality != blank
+          render '__custom-sto-qualities', qualities: product.metafields.sto.quality.value
+        endif
+        render 'product-media-gallery', variant_images: variant_images
+      %}
     </div>
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <product-info
@@ -209,7 +211,7 @@
                       </div>
                     </noscript>
                     <deferred-media
-                      class="video-section__media deferred-media no-js-hidden gradient global-media-settings{% if fix_radio %} media-fit-cover{% endif %}"
+                      class="video-section__media deferred-media no-js-hidden gradient global-media-settings{% if fix_ratio %} media-fit-cover{% endif %}"
                       data-media-id="{{ video_id}}"
                       {% if poster != null %}
                         style="--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 100 }}%;"
