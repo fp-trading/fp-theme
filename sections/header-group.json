@@ -4,7 +4,18 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
+      "blocks": {
+        "95346cd3-91ec-4820-bcc0-3dbfeda4ce53": {
+          "type": "announcement",
+          "settings": {
+            "text": "Achtung! Sto-Preiserhöhung um bis zu 38% zum 01.11!",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "95346cd3-91ec-4820-bcc0-3dbfeda4ce53"
+      ],
       "settings": {
         "color_scheme": "",
         "show_line_separator": true,
