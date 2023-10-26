@@ -111,7 +111,7 @@
         "d075259a-7e9c-4bed-8f1a-0c40d3660dc3"
       ],
       "custom_css": [
-        ".product-form__submit {--color-button: 255, 215, 0; --color-button-text: 66,64,63;}"
+        ".product-form__submit {--color-button: 255, 215, 0; --color-button-text: 66, 64, 63;}"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -154,11 +154,53 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "169832684168acfd57": {
+      "type": "apps",
+      "blocks": {
+        "e80947f0-a0b8-4334-af1a-f83c5f8dd8d3": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-polaris\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#000",
+            "review_type": "product_review,questions",
+            "per_page": 8,
+            "primary_btn_bg_color": "#000",
+            "primary_btn_border_color": "#000",
+            "primary_btn_text_color": "#fff",
+            "secondary_btn_border_color": "#000",
+            "secondary_btn_text_color": "#000",
+            "border_color": "rgba(0,0,0,0.15)",
+            "heading_text_color": "#000",
+            "heading_font": "helvetica_n4",
+            "body_text_color": "#000",
+            "badge_icon_color": "#000",
+            "badge_text_color": "#000",
+            "enable_rich_snippets": true,
+            "show_location": true,
+            "show_tab_selector": false,
+            "show_dates": true,
+            "show_avatar": true,
+            "enable_replies": false,
+            "widget_spacing": 0,
+            "capitalise_headers": false,
+            "capitalise_buttons": false,
+            "show_review_title": false,
+            "default_sort": "date_desc"
+          }
+        }
+      },
+      "block_order": [
+        "e80947f0-a0b8-4334-af1a-f83c5f8dd8d3"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "0374e570-2362-4936-8a0d-7e5fbb32bd7a",
-    "related-products"
+    "related-products",
+    "169832684168acfd57"
   ]
 }
