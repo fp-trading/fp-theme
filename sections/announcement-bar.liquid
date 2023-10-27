@@ -43,7 +43,7 @@
             >
           {%- endif -%}
           <p class="announcement-bar__message">
-            <span>{{ section.blocks.first.settings.text | escape }}</span>
+            <span>{{ section.blocks.first.settings.text }}</span>
             {%- if section.blocks.first.settings.date != blank -%}
               <br>
               <span
@@ -109,7 +109,7 @@
                       >
                     {%- endif -%}
                     <p class="announcement-bar__message">
-                      <span>{{ block.settings.text | escape }}</span>
+                      <span>{{ block.settings.text }}</span>
                       {%- if block.settings.date != blank -%}
                         <br>
                         <span class="announcement-bar__countdown h5" data-target="{{ block.settings.date }}"></span>
