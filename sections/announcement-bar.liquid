@@ -18,6 +18,8 @@
   {{ 'component-list-social.css' | asset_url | stylesheet_tag }}
 {% endif %}
 
+<script src="{{ '__custom-countdown.js' | asset_url }}" defer="defer"></script>
+
 <div
   class="utility-bar color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator and section.blocks.size > 0 %} utility-bar--bottom-border{% elsif section.settings.show_line_separator and section.settings.show_social and social_icons%} utility-bar--bottom-border-social-only{% endif %}{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header-localization{% endif %}"
   {{ block.shopify_attributes }}
@@ -40,8 +42,15 @@
               class="announcement-bar__link link link--text focus-inset animate-arrow"
             >
           {%- endif -%}
-          <p class="announcement-bar__message h5">
+          <p class="announcement-bar__message">
             <span>{{ section.blocks.first.settings.text | escape }}</span>
+            {%- if section.blocks.first.settings.date != blank -%}
+              <br>
+              <span
+                class="announcement-bar__countdown h5"
+                data-target="{{ section.blocks.first.settings.date }}"
+              ></span>
+            {%- endif -%}
             {%- if section.blocks.first.settings.link != blank -%}
               {% render 'icon-arrow' %}
             {%- endif -%}
@@ -99,8 +108,12 @@
                         class="announcement-bar__link link link--text focus-inset animate-arrow"
                       >
                     {%- endif -%}
-                    <p class="announcement-bar__message h5">
+                    <p class="announcement-bar__message">
                       <span>{{ block.settings.text | escape }}</span>
+                      {%- if block.settings.date != blank -%}
+                        <br>
+                        <span class="announcement-bar__countdown h5" data-target="{{ block.settings.date }}"></span>
+                      {%- endif -%}
                       {%- if block.settings.link != blank -%}
                         {% render 'icon-arrow' %}
                       {%- endif -%}
@@ -293,7 +306,7 @@
       "name": "t:sections.announcement-bar.blocks.announcement.name",
       "settings": [
         {
-          "type": "text",
+          "type": "inline_richtext",
           "id": "text",
           "default": "Welcome to our store",
           "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
@@ -302,6 +315,12 @@
           "type": "url",
           "id": "link",
           "label": "t:sections.announcement-bar.blocks.announcement.settings.link.label"
+        },
+        {
+          "type": "text",
+          "id": "date",
+          "placeholder": "YYYY-MM-DD",
+          "label": "Countdown Zieldatum"
         }
       ]
     }
