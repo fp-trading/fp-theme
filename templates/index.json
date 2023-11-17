@@ -2,6 +2,9 @@
   "sections": {
     "cef7a198-9738-4d32-b999-7195e6830a8a": {
       "type": "image-banner",
+      "custom_css": [
+        ".banner__media {cursor: pointer;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Black_week_Farben_Profi_design_StoColor_Sil_Comfort_15L__Website_banner.jpg",
         "link": "shopify:\/\/products\/betonoptik-paket",
