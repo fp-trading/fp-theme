@@ -162,6 +162,14 @@
   </div>
 </div>
 
+<script defer>
+  const image_1 = document.querySelector('.banner__media img');
+
+  image_1.addEventListener('click', () => {
+    window.location.href = {{ section.settings.url }}
+  })
+</script>
+
 {% schema %}
 {
   "name": "t:sections.image-banner.name",
