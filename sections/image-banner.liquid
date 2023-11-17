@@ -163,10 +163,10 @@
 </div>
 
 <script defer>
-  const image_1 = document.querySelector('.banner__media img');
+  const banner = document.getElementById('Banner-{{ section.id }}')
 
-  image_1.addEventListener('click', () => {
-    window.location.href = {{ section.settings.url }}
+  banner.addEventListener('click', () => {
+    console.log('click')
   })
 </script>
 
