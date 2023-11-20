@@ -7,6 +7,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/4.jpg",
+        "link": "shopify:\/\/collections\/aktionen",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",

@@ -47,7 +47,7 @@
             {%- if section.blocks.first.settings.date != blank -%}
               <br>
               <span
-                class="announcement-bar__countdown h5"
+                class="announcement-bar__countdown h4"
                 data-target="{{ section.blocks.first.settings.date }}"
               ></span>
             {%- endif -%}
@@ -112,7 +112,7 @@
                       <span>{{ block.settings.text }}</span>
                       {%- if block.settings.date != blank -%}
                         <br>
-                        <span class="announcement-bar__countdown h5" data-target="{{ block.settings.date }}"></span>
+                        <span class="announcement-bar__countdown h4" data-target="{{ block.settings.date }}"></span>
                       {%- endif -%}
                       {%- if block.settings.link != blank -%}
                         {% render 'icon-arrow' %}
