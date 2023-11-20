@@ -2,12 +2,12 @@
   "sections": {
     "13cbeeee-d41e-4797-b709-7668b05bfa8d": {
       "type": "image-banner",
+      "disabled": true,
       "custom_css": [
         ".banner {margin-bottom: 3rem;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/4.jpg",
-        "link": "shopify:\/\/collections\/aktionen",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -41,7 +41,8 @@
           "type": "button",
           "settings": {
             "button_label": "Zum Produkt",
-            "button_link": "shopify:\/\/products\/stocolorrapidultramatt"
+            "button_link": "shopify:\/\/products\/stocolorrapidultramatt",
+            "button_style_secondary": false
           }
         }
       },
@@ -50,7 +51,6 @@
         "template--18051859906824__1397d4fd-05a9-45df-83dd-b6514ea4a6ac-1688640400e9048648-1",
         "template--18051859906824__1397d4fd-05a9-45df-83dd-b6514ea4a6ac-1688640400e9048648-2"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/ultramatt_promo_5fe79278-6509-405b-b6b0-f709ddede4e5.jpg",
         "height": "adapt",
@@ -362,7 +362,8 @@
           "type": "button",
           "settings": {
             "button_label": "Zu meinen Empfehlungen",
-            "button_link": "shopify:\/\/collections\/empfehlungen"
+            "button_link": "shopify:\/\/collections\/empfehlungen",
+            "button_style_secondary": false
           }
         }
       },
