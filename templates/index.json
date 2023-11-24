@@ -21,6 +21,25 @@
         "show_text_below": true
       }
     },
+    "bd15c7ba-edd3-45ce-8cae-ef893bca2e28": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Black_week_Farben_Profi_design_StoColor_Sil_Comfort_15L__Website_banner_copy.jpg",
+        "link": "shopify:\/\/products\/betonoptik-paket",
+        "link_2": "",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "0f8ad26e-60a4-4eb4-b428-1ae2266d011f": {
       "type": "image-with-text",
       "blocks": {
@@ -449,6 +468,7 @@
   },
   "order": [
     "cef7a198-9738-4d32-b999-7195e6830a8a",
+    "bd15c7ba-edd3-45ce-8cae-ef893bca2e28",
     "0f8ad26e-60a4-4eb4-b428-1ae2266d011f",
     "4074b986-155a-41b0-bae7-cabbc33f16b0",
     "4ef6dd0b-672e-419e-a67f-2c47d2e3ada8",
