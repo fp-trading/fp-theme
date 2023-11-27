@@ -2,6 +2,7 @@
   "sections": {
     "cef7a198-9738-4d32-b999-7195e6830a8a": {
       "type": "image-banner",
+      "disabled": true,
       "custom_css": [
         ".banner {cursor: pointer;}"
       ],
