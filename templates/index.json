@@ -68,6 +68,75 @@
         "padding_bottom": 36
       }
     },
+    "7aece131-acb4-405b-ab99-79a3e7e4e7ee": {
+      "type": "featured-product",
+      "blocks": {
+        "a3b4cb7d-c4b9-4949-ac2b-8a61cf5f6ef5": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h2 style=\"color: rgb(0,113,188);\">Neu im Shop!<\/h2>"
+          }
+        },
+        "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "a3b4cb7d-c4b9-4949-ac2b-8a61cf5f6ef5",
+        "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-title-1",
+        "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-price-1",
+        "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-variant_picker-1",
+        "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-quantity_selector-1",
+        "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-buy_buttons-1",
+        "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-share-1"
+      ],
+      "settings": {
+        "product": "wandprofi-schneidematte-100-x-150-cm",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "4074b986-155a-41b0-bae7-cabbc33f16b0": {
       "type": "multicolumn",
       "blocks": {
@@ -451,6 +520,7 @@
   "order": [
     "cef7a198-9738-4d32-b999-7195e6830a8a",
     "0f8ad26e-60a4-4eb4-b428-1ae2266d011f",
+    "7aece131-acb4-405b-ab99-79a3e7e4e7ee",
     "4074b986-155a-41b0-bae7-cabbc33f16b0",
     "4ef6dd0b-672e-419e-a67f-2c47d2e3ada8",
     "9a45b8c4-09b1-46c7-b0c3-f773e783f217",
