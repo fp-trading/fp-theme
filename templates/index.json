@@ -71,12 +71,6 @@
     "7aece131-acb4-405b-ab99-79a3e7e4e7ee": {
       "type": "featured-product",
       "blocks": {
-        "a3b4cb7d-c4b9-4949-ac2b-8a61cf5f6ef5": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<h2 style=\"color: rgb(0,113,188);\">Neu im Shop!<\/h2>"
-          }
-        },
         "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-title-1": {
           "type": "title",
           "settings": {
@@ -114,7 +108,6 @@
         }
       },
       "block_order": [
-        "a3b4cb7d-c4b9-4949-ac2b-8a61cf5f6ef5",
         "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-title-1",
         "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-price-1",
         "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-variant_picker-1",
@@ -123,10 +116,10 @@
         "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-share-1"
       ],
       "settings": {
-        "product": "wandprofi-schneidematte-100-x-150-cm",
+        "product": "betonoptik-paket",
         "color_scheme": "background-1",
         "secondary_background": false,
-        "media_size": "medium",
+        "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "left",
