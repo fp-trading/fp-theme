@@ -3528,3 +3528,11 @@ details-disclosure > details {
     fill: rgb(var(--color-background)) !important;
   }
 }
+
+.pop-content-blocks h1 {
+  font-family: var(--font-heading-family) !important;
+}
+
+.pop-content-blocks p {
+  font-family: var(--font-body-family) !important;
+}
