@@ -7,6 +7,7 @@
       "blocks": {
         "472bf042-0f29-4a87-8900-77365f9fb58d": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Wir wünschen frohe Weihnachten und sind ab dem 2. Januar wieder für euch da!",
             "link": ""
