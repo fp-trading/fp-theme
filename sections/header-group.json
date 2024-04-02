@@ -7,6 +7,7 @@
       "blocks": {
         "472bf042-0f29-4a87-8900-77365f9fb58d": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Bei einem Kauf ab 499€ gibt es das Wandprofi Osterpaket im Wert von 75€ gratis dazu!",
             "link": ""
