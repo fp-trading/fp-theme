@@ -51,18 +51,6 @@
             "picker_type": "button"
           }
         },
-        "8962f2cd-be21-449a-bedd-946a516310ae": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "stopwatch",
-            "heading_1": "Lieferzeit: {{ product.metafields.general.lieferzeit.value }} Werktage",
-            "icon_2": "truck",
-            "heading_2": "Versandkostenfrei ab {{ product.metafields.general.versandkosten.value }} €",
-            "icon_3": "none",
-            "heading_3": ""
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -113,7 +101,6 @@
         "area",
         "price",
         "variant_picker",
-        "8962f2cd-be21-449a-bedd-946a516310ae",
         "quantity_selector",
         "buy_buttons",
         "share",
