@@ -125,7 +125,7 @@
       "settings": {
         "product": "betonoptik-paket",
         "color_scheme": "background-1",
-        "secondary_background": true,
+        "secondary_background": false,
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
