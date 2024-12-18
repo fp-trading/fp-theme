@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -5,13 +14,11 @@
       "blocks": {
         "6e6f5b3f-4c5c-4faa-be73-d9bfea448775": {
           "type": "rating",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -20,7 +27,7 @@
             "text_style": "subtitle",
             "second_column": true,
             "color_scheme": "accent-2",
-            "image": "shopify:\/\/shop_images\/Portrait-Andreas-Neufeld-Der-Wandprofi.jpg"
+            "image": "shopify://shop_images/Portrait-Andreas-Neufeld-Der-Wandprofi.jpg"
           }
         },
         "area": {
@@ -33,8 +40,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -63,7 +69,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false,
+            "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
           }
         },
@@ -91,7 +97,7 @@
           "settings": {
             "video": "{{ product.metafields.custom.video.value }}",
             "video_url": "",
-            "cover_image": "shopify:\/\/shop_images\/background_f8e65885-eb6b-4d04-899f-8de2b14e4914.webp",
+            "cover_image": "shopify://shop_images/background_f8e65885-eb6b-4d04-899f-8de2b14e4914.webp",
             "description": "{{ product.title }} (Produktvideo)",
             "second_column": true
           }
@@ -129,7 +135,7 @@
     "0374e570-2362-4936-8a0d-7e5fbb32bd7a": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width\"><h2>Produktbeschreibung zu {{product.title}}<\/h2>\n{{ product.description }}\n<\/div>",
+        "custom_liquid": "<div class=\"page-width\"><h2>Produktbeschreibung zu {{product.title}}</h2>\n{{ product.description }}\n</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
