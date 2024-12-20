@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -7,9 +16,8 @@
       "blocks": {
         "472bf042-0f29-4a87-8900-77365f9fb58d": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Bei einem Kauf ab 499€ gibt es das Wandprofi Osterpaket im Wert von 75€ gratis dazu!",
+            "text": "Achtung: Bestellungen ab 23.12. werden erst am 06.01. versandt!",
             "link": ""
           }
         }
