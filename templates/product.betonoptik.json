@@ -144,7 +144,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "You may also like",
+        "heading": "Passende Produkte",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
@@ -158,11 +158,26 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "video_RNcR4K": {
+      "type": "video",
+      "settings": {
+        "heading": "Schritt für Schritt Anleitung",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://vimeo.com/995517467",
+        "description": "Betonoptik Anleitung",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "0374e570-2362-4936-8a0d-7e5fbb32bd7a",
-    "related-products"
+    "related-products",
+    "video_RNcR4K"
   ]
 }
