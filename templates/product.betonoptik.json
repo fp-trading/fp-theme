@@ -161,6 +161,7 @@
     },
     "video_RNcR4K": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Schritt für Schritt Anleitung",
         "heading_size": "h1",
