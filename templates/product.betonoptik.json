@@ -75,6 +75,7 @@
         },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -91,16 +92,6 @@
             "image_ratio": "square",
             "enable_quick_add": true
           }
-        },
-        "a09b19c2-d7ed-43c2-ad73-d386cebb9398": {
-          "type": "video",
-          "settings": {
-            "video": "{{ product.metafields.custom.video.value }}",
-            "video_url": "",
-            "cover_image": "shopify://shop_images/background_f8e65885-eb6b-4d04-899f-8de2b14e4914.webp",
-            "description": "{{ product.title }} (Produktvideo)",
-            "second_column": true
-          }
         }
       },
       "block_order": [
@@ -114,15 +105,14 @@
         "quantity_selector",
         "buy_buttons",
         "share",
-        "d075259a-7e9c-4bed-8f1a-0c40d3660dc3",
-        "a09b19c2-d7ed-43c2-ad73-d386cebb9398"
+        "d075259a-7e9c-4bed-8f1a-0c40d3660dc3"
       ],
       "settings": {
         "enable_sticky_info": true,
-        "media_size": "small",
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail",
         "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "columns",
@@ -130,6 +120,21 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "video_RNcR4K": {
+      "type": "video",
+      "settings": {
+        "heading": "Schritt für Schritt Anleitung",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "vimeo.com/995517467",
+        "cover_image": "shopify://shop_images/Betonoptik_Wandprofi_Anleitung_neu.webp",
+        "description": "Betonoptik Anleitung",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "0374e570-2362-4936-8a0d-7e5fbb32bd7a": {
@@ -158,27 +163,12 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "video_RNcR4K": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "Schritt für Schritt Anleitung",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "vimeo.com/995517467",
-        "description": "Betonoptik Anleitung",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
+    "video_RNcR4K",
     "0374e570-2362-4936-8a0d-7e5fbb32bd7a",
-    "related-products",
-    "video_RNcR4K"
+    "related-products"
   ]
 }
