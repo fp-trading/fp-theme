@@ -82,6 +82,7 @@
         },
         "d075259a-7e9c-4bed-8f1a-0c40d3660dc3": {
           "type": "complementary",
+          "disabled": true,
           "settings": {
             "block_heading": "Für's optimale Ergebnis",
             "make_collapsible_row": true,
@@ -242,6 +243,69 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "multicolumn_full_button_BDJbDP": {
+      "type": "multicolumn-full-button",
+      "blocks": {
+        "column_pEdHmW": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Alle benötigten Artikel sind enthalten</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VFgrFr": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Bessere Preis als Einzelbestellung</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cFWyBK": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Passende Menge im Paket enthalten</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_txHMYb": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Perfektes Ergebnis, dank ideal abgestimmter Artikel</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_pEdHmW",
+        "column_VFgrFr",
+        "column_cFWyBK",
+        "column_txHMYb"
+      ],
+      "settings": {
+        "title": "Vorteile dieses Pakets",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -249,6 +313,7 @@
     "video_RNcR4K",
     "0374e570-2362-4936-8a0d-7e5fbb32bd7a",
     "featured_collection_UxEGzF",
-    "related-products"
+    "related-products",
+    "multicolumn_full_button_BDJbDP"
   ]
 }
