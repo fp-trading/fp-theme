@@ -96,7 +96,7 @@
         "collapsible_tab_LebpKX": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "10 m2",
+            "heading": "Paketinhalte",
             "icon": "eye",
             "content": "<p>{{ block.settings.page.metafields.custom.paketinhalt_seite | metafield_tag }}</p>",
             "page": ""
