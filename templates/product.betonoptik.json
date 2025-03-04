@@ -173,6 +173,70 @@
         "padding_bottom": 12
       }
     },
+    "multicolumn_full_button_BDJbDP": {
+      "type": "multicolumn-full-button",
+      "blocks": {
+        "column_pEdHmW": {
+          "type": "column",
+          "settings": {
+            "title": "Alles mit dabei",
+            "text": "<p>Mit diesem Paket wirst du nichts vergessen und bist rundum versorgt.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VFgrFr": {
+          "type": "column",
+          "settings": {
+            "title": "Best Preis Garantie",
+            "text": "<p>Beim Gesamtpaket können wir dir einen viel besseren Preis anbieten, als im Einzelkauf.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cFWyBK": {
+          "type": "column",
+          "settings": {
+            "title": "Passende Mengen",
+            "text": "<p>Dank abgestimmter Mengen hast du von nichts zu viel - oder zu wenig.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_txHMYb": {
+          "type": "column",
+          "settings": {
+            "title": "Alles Abgestimmt",
+            "text": "<p>Wir versprechen dir ein perfektes Ergebnis, weil alles aufeinander abestimmt ist.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_pEdHmW",
+        "column_VFgrFr",
+        "column_cFWyBK",
+        "column_txHMYb"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "Vorteile dieses Pakets",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "video_RNcR4K": {
       "type": "video",
       "settings": {
@@ -244,76 +308,44 @@
         "padding_bottom": 28
       }
     },
-    "multicolumn_full_button_BDJbDP": {
-      "type": "multicolumn-full-button",
+    "rich_text_KAnJzQ": {
+      "type": "rich-text",
       "blocks": {
-        "column_pEdHmW": {
-          "type": "column",
+        "heading_waXPWQ": {
+          "type": "heading",
           "settings": {
-            "title": "Column",
-            "text": "<p>Alle benötigten Artikel sind enthalten</p>",
-            "link_label": "",
-            "link": ""
+            "heading": "{{ product.metafields.custom.titel_fuer_spalte.value }}",
+            "heading_size": "h1"
           }
         },
-        "column_VFgrFr": {
-          "type": "column",
+        "text_A8NKe7": {
+          "type": "text",
           "settings": {
-            "title": "Column",
-            "text": "<p>Bessere Preis als Einzelbestellung</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_cFWyBK": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Passende Menge im Paket enthalten</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_txHMYb": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Perfektes Ergebnis, dank ideal abgestimmter Artikel</p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>{{ product.metafields.custom.warum_dieses_paket | metafield_tag }}</p>"
           }
         }
       },
       "block_order": [
-        "column_pEdHmW",
-        "column_VFgrFr",
-        "column_cFWyBK",
-        "column_txHMYb"
+        "heading_waXPWQ",
+        "text_A8NKe7"
       ],
       "settings": {
-        "title": "Vorteile dieses Pakets",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "circle",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
+    "rich_text_KAnJzQ",
+    "multicolumn_full_button_BDJbDP",
     "video_RNcR4K",
     "0374e570-2362-4936-8a0d-7e5fbb32bd7a",
     "featured_collection_UxEGzF",
-    "related-products",
-    "multicolumn_full_button_BDJbDP"
+    "related-products"
   ]
 }
