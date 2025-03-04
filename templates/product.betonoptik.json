@@ -93,19 +93,49 @@
             "enable_quick_add": true
           }
         },
-        "text_4Vwjdq": {
-          "type": "text",
+        "collapsible_tab_RnenQw": {
+          "type": "collapsible_tab",
           "settings": {
-            "text": "",
-            "text_style": "body",
-            "second_column": false,
-            "color_scheme": "background-2"
+            "heading": "10m²",
+            "icon": "box",
+            "content": "<p>2 x Spachtelmasse 10 kg<br/>1 x Grundierung 2 L<br/>1 x Imprägnierung 2 L<br/>10 x Schalungsfolien</p>",
+            "page": ""
           }
         },
-        "custom_liquid_YjeCHN": {
-          "type": "custom_liquid",
+        "collapsible_tab_eRY9bm": {
+          "type": "collapsible_tab",
           "settings": {
-            "custom_liquid": "{{ product.metafields.custom.paketinhalt_vom_produkt }}"
+            "heading": "15m²",
+            "icon": "box",
+            "content": "<p>3 x Spachtelmasse 10 kg<br/>2 x Grundierung 2 L<br/>1 x Imprägnierung 2 L<br/>15 x Schalungsfolien</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_HAaiVm": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "20m²",
+            "icon": "box",
+            "content": "<p>4 x Spachtelmasse 10 kg<br/>2 x Grundierung 2 L<br/>1 x Imprägnierung 2 L<br/>20 x Schalungsfolien</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_bhtg6T": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "25m²",
+            "icon": "box",
+            "content": "<p>5 x Spachtelmasse 10 kg<br/>3 x Grundierung 2 L<br/>2 x Imprägnierung 2 L<br/>25 x Schalungsfolien</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_MfLaVB": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "30m²",
+            "icon": "box",
+            "content": "<p>6 x Spachtelmasse 10 kg<br/>3 x Grundierung 2 L<br/>2 x Imprägnierung 2 L<br/>30 x Schalungsfolien</p>",
+            "page": ""
           }
         }
       },
@@ -121,8 +151,11 @@
         "buy_buttons",
         "share",
         "d075259a-7e9c-4bed-8f1a-0c40d3660dc3",
-        "text_4Vwjdq",
-        "custom_liquid_YjeCHN"
+        "collapsible_tab_RnenQw",
+        "collapsible_tab_eRY9bm",
+        "collapsible_tab_HAaiVm",
+        "collapsible_tab_bhtg6T",
+        "collapsible_tab_MfLaVB"
       ],
       "settings": {
         "enable_sticky_info": true,
