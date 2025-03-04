@@ -93,13 +93,19 @@
             "enable_quick_add": true
           }
         },
-        "collapsible_tab_LebpKX": {
-          "type": "collapsible_tab",
+        "text_4Vwjdq": {
+          "type": "text",
           "settings": {
-            "heading": "Paketinhalte",
-            "icon": "eye",
-            "content": "<p>{{ block.settings.page.metafields.custom.paketinhalt_seite | metafield_tag }}</p>",
-            "page": ""
+            "text": "",
+            "text_style": "body",
+            "second_column": false,
+            "color_scheme": "background-2"
+          }
+        },
+        "custom_liquid_YjeCHN": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ product.metafields.custom.paketinhalt_vom_produkt }}"
           }
         }
       },
@@ -115,7 +121,8 @@
         "buy_buttons",
         "share",
         "d075259a-7e9c-4bed-8f1a-0c40d3660dc3",
-        "collapsible_tab_LebpKX"
+        "text_4Vwjdq",
+        "custom_liquid_YjeCHN"
       ],
       "settings": {
         "enable_sticky_info": true,
