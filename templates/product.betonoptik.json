@@ -92,6 +92,15 @@
             "image_ratio": "square",
             "enable_quick_add": true
           }
+        },
+        "collapsible_tab_LebpKX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "10 m2",
+            "icon": "eye",
+            "content": "<p>{{ block.settings.page.metafields.custom.paketinhalt_seite | metafield_tag }}</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -105,7 +114,8 @@
         "quantity_selector",
         "buy_buttons",
         "share",
-        "d075259a-7e9c-4bed-8f1a-0c40d3660dc3"
+        "d075259a-7e9c-4bed-8f1a-0c40d3660dc3",
+        "collapsible_tab_LebpKX"
       ],
       "settings": {
         "enable_sticky_info": true,
