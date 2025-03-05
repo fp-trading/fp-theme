@@ -39,6 +39,11 @@
             "background_style": "primary"
           }
         },
+        "description_PhHTUJ": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -146,6 +151,7 @@
         "title",
         "caption",
         "area",
+        "description_PhHTUJ",
         "price",
         "variant_picker",
         "8962f2cd-be21-449a-bedd-946a516310ae",
