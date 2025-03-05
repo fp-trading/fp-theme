@@ -22,6 +22,7 @@
         },
         "caption": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle",
@@ -282,8 +283,115 @@
         "padding_bottom": 36
       }
     },
+    "multirow_6thDVN": {
+      "type": "multirow",
+      "blocks": {
+        "row_wTmdV3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Wandprofi_Betonoptik__Schritt_1_Abkleben.jpg",
+            "caption": "",
+            "heading": "1. Vorbereiten",
+            "text": "<p>Abkleben aller Flächen, die angrenzend an die zu bearbeitende Fläche sind.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_yBgDni": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Wandprofi_Betonoptik__Schritt_2_Grundieren.jpg",
+            "caption": "",
+            "heading": "2. Grundierung",
+            "text": "<p>Auftragen der WANDPROFI Betonoptik Grundierung und je nach Raumtemperatur und Luftfeuchte 12 Stunden trocknen lassen.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_LYiX8y": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Wandprofi_Betonoptik__Schritt_3_Zuschneiden_Folie.jpg",
+            "caption": "",
+            "heading": "3. Zuschneiden",
+            "text": "<p>Zuschneiden der WANDPROFI Betonoptik Schalungsfolien auf die entsprechende Größe.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_yUd9dG": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Wandprofi_Betonoptik__Schritt_4_Auftragen.jpg",
+            "caption": "",
+            "heading": "4. Anrühren",
+            "text": "<p>Anmischen der WANDPROFI Betonoptik Spachtelmasse.<br/><strong>(Achtung: Das Material ist bei 20°C und 65% relativer Luftfeuchtigkeit ca. 60 Minuten lang verarbeitbar.)</strong></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_JKBCBF": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Wandprofi_Betonoptik__Schritt_4_Auftragen.jpg",
+            "caption": "",
+            "heading": "5. Autragen",
+            "text": "<p>Die Spachtelmasse mit einer Zahnkelle auf die Wand auftragen und anschließend glatt ziehen.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_XHPYEV": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Wandprofi_Betonoptik__Schritt_6_Trocknen_lassen.jpg",
+            "caption": "",
+            "heading": "6. Trocknen",
+            "text": "<p>Fertig gespachtelte Fläche mindestens 8 und maximal 24 Stunden einwirken lassen. Nach Abziehen der Folien mindestens 24 Stunden trocknen lassen.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_6FyVnF": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Wandprofi_Betonoptik__Schritt_7_Impraegnierung.jpg",
+            "caption": "",
+            "heading": "7. Imprägnieren",
+            "text": "<p>Optional: Nach der Trocknungszeit Oberfläche mit WANDPROFI Betonoptik Imprägnierung schützen.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_wTmdV3",
+        "row_yBgDni",
+        "row_LYiX8y",
+        "row_yUd9dG",
+        "row_JKBCBF",
+        "row_XHPYEV",
+        "row_6FyVnF"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "0374e570-2362-4936-8a0d-7e5fbb32bd7a": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"page-width\"><h2>Produktbeschreibung zu {{product.title}}</h2>\n{{ product.description }}\n</div>",
         "color_scheme": "",
@@ -344,6 +452,7 @@
     "rich_text_KAnJzQ",
     "multicolumn_full_button_BDJbDP",
     "video_RNcR4K",
+    "multirow_6thDVN",
     "0374e570-2362-4936-8a0d-7e5fbb32bd7a",
     "featured_collection_UxEGzF",
     "related-products"
