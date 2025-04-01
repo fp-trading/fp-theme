@@ -41,7 +41,6 @@
         },
         "description_PhHTUJ": {
           "type": "description",
-          "disabled": true,
           "settings": {}
         },
         "price": {
