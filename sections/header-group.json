@@ -20,12 +20,19 @@
             "text": "Achtung: Bestellungen ab 23.12. werden erst am 06.01. versandt!",
             "link": ""
           }
+        },
+        "announcement_GkQKLm": {
+          "type": "announcement",
+          "settings": {
+            "text": "JETZT 5% auf Betonoptik sparen",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "472bf042-0f29-4a87-8900-77365f9fb58d"
+        "472bf042-0f29-4a87-8900-77365f9fb58d",
+        "announcement_GkQKLm"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "show_line_separator": true,
