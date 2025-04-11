@@ -16,6 +16,7 @@
       "blocks": {
         "472bf042-0f29-4a87-8900-77365f9fb58d": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Achtung: Bestellungen ab 23.12. werden erst am 06.01. versandt!",
             "link": ""
@@ -34,7 +35,7 @@
         "announcement_GkQKLm"
       ],
       "settings": {
-        "color_scheme": "background-2",
+        "color_scheme": "accent-2",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
