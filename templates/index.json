@@ -11,12 +11,11 @@
   "sections": {
     "cef7a198-9738-4d32-b999-7195e6830a8a": {
       "type": "image-banner",
-      "disabled": true,
       "custom_css": [
         ".banner {cursor: pointer;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Wandprofi-Shop_Black_Friday_20c5128a-ac27-4c30-a2a9-87962e1188e3.jpg",
+        "image": "shopify://shop_images/Wandprofi-Shop_Spring.webp",
         "link": "shopify://products/betonoptik-paket",
         "link_2": "",
         "image_overlay_opacity": 0,
@@ -62,6 +61,7 @@
         "template--19238953877836__0f8ad26e-60a4-4eb4-b428-1ae2266d011f-1689600360a7f7d6c7-1",
         "template--19238953877836__0f8ad26e-60a4-4eb4-b428-1ae2266d011f-1689600360a7f7d6c7-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/wp_portrait.webp",
         "height": "small",
