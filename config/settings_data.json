@@ -1,8 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/header-logo.webp",
+    "logo": "shopify://shop_images/header-logo.webp",
     "logo_width": 300,
-    "favicon": "shopify:\/\/shop_images\/square-logo.webp",
+    "favicon": "shopify://shop_images/square-logo.webp",
     "type_header_font": "righteous_n4",
     "heading_scale": 110,
     "type_body_font": "nunito_n4",
@@ -98,15 +107,15 @@
     "sale_badge_color_scheme": "scheme-5d16d034-c8d3-410e-96d9-4b08e17a3084",
     "sold_out_badge_color_scheme": "accent-1",
     "brand_headline": "",
-    "social_facebook_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/farben_profi",
-    "social_youtube_link": "https:\/\/www.youtube.com\/@farben-profi8488",
+    "social_facebook_link": "https://www.facebook.com/wandprofi/",
+    "social_instagram_link": "https://www.instagram.com/wandprofi/",
+    "social_youtube_link": "http://www.youtube.com/@derwandprofi",
     "social_tiktok_link": "",
     "social_twitter_link": "",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
     "social_tumblr_link": "",
-    "social_vimeo_link": "https:\/\/vimeo.com\/farbenprofi",
+    "social_vimeo_link": "https://vimeo.com/farbenprofi",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": true,
@@ -115,7 +124,7 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "empfehlungen",
-    "checkout_logo_image": "shopify:\/\/shop_images\/icon_center.png",
+    "checkout_logo_image": "shopify://shop_images/icon_center.png",
     "checkout_logo_position": "center",
     "checkout_button_color": "#ffd700",
     "sections": {
@@ -132,12 +141,10 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "10605408327587305396": {
-        "type": "shopify:\/\/apps\/eg-auto-add-to-cart\/blocks\/app-embed\/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
+        "type": "shopify://apps/eg-auto-add-to-cart/blocks/app-embed/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
         "disabled": false,
         "settings": {
           "version": "v3"
