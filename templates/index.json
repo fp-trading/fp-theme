@@ -109,6 +109,7 @@
         },
         "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-share-1": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
