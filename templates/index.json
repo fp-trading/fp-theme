@@ -77,6 +77,52 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_MGKfGW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_38iePJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Frühjahrsputz",
+            "heading_size": "h1"
+          }
+        },
+        "text_r3HkqX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Verleih deinem Zuhause einen neuen Look. Wir unterstützen dich dabei. <br/>Jetzt Rabatt von 5% auf Betonoptik sichern und sparen.<br/><br/><em>*Rabatt wird an der Kasse automatisch abgezogen.</em></p>",
+            "text_style": "body"
+          }
+        },
+        "button_VPjhKY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zur Betonoptik",
+            "button_link": "shopify://products/betonoptik-paket",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_38iePJ",
+        "text_r3HkqX",
+        "button_VPjhKY"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Wandprofi_Betonoptik_Treppenhaus_1.webp",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "7aece131-acb4-405b-ab99-79a3e7e4e7ee": {
       "type": "featured-product",
       "blocks": {
@@ -577,6 +623,7 @@
   "order": [
     "cef7a198-9738-4d32-b999-7195e6830a8a",
     "0f8ad26e-60a4-4eb4-b428-1ae2266d011f",
+    "image_with_text_MGKfGW",
     "7aece131-acb4-405b-ab99-79a3e7e4e7ee",
     "multicolumn_full_button_4VwUEj",
     "4074b986-155a-41b0-bae7-cabbc33f16b0",
