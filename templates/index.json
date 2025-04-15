@@ -62,6 +62,7 @@
         "template--19238953877836__0f8ad26e-60a4-4eb4-b428-1ae2266d011f-1689600360a7f7d6c7-1",
         "template--19238953877836__0f8ad26e-60a4-4eb4-b428-1ae2266d011f-1689600360a7f7d6c7-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/wp_portrait.webp",
         "height": "small",
