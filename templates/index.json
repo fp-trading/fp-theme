@@ -241,6 +241,22 @@
         "padding_bottom": 60
       }
     },
+    "video_RdQhDF": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/Betonoptik Startseite 16x9.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "Betonoptik im Wohnzimmer, Treppenhaus oder am Kamin.",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "4074b986-155a-41b0-bae7-cabbc33f16b0": {
       "type": "multicolumn",
       "blocks": {
@@ -696,6 +712,7 @@
     "image_with_text_MGKfGW",
     "7aece131-acb4-405b-ab99-79a3e7e4e7ee",
     "multicolumn_full_button_4VwUEj",
+    "video_RdQhDF",
     "4074b986-155a-41b0-bae7-cabbc33f16b0",
     "featured_product_LEUHef",
     "4ef6dd0b-672e-419e-a67f-2c47d2e3ada8",
