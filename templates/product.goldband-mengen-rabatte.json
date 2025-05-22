@@ -12,46 +12,30 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "6e6f5b3f-4c5c-4faa-be73-d9bfea448775": {
-          "type": "rating",
-          "settings": {}
-        },
         "title": {
           "type": "title",
           "settings": {}
         },
-        "caption": {
-          "type": "text",
-          "disabled": true,
+        "custom_liquid_PtPw79": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle",
-            "second_column": true,
-            "color_scheme": "accent-2",
-            "image": "shopify://shop_images/Portrait-Andreas-Neufeld-Der-Wandprofi.jpg"
+            "custom_liquid": "<style>\n.lager-hinweis {\n  display: flex;\n  align-items: center;\n  gap: 0.6rem;\n  margin-top: 1.8rem;\n  font-size: 1.6rem;\n  font-weight: 700;\n  color: #2e7d32;\n}\n\n.lager-hinweis .gruenpunkt {\n  width: 12px;\n  height: 12px;\n  background-color: #2ecc71;\n  border-radius: 50%;\n  display: inline-block;\n}\n</style>\n\n<div class=\"lager-hinweis\">\n  <span class=\"gruenpunkt\"></span>\n  <span>Auf Lager – in 2–3 Tagen bei dir</span>\n</div>"
           }
         },
-        "area": {
-          "type": "area",
+        "custom_liquid_XbGC9H": {
+          "type": "custom_liquid",
           "settings": {
-            "second_column": true,
-            "color_scheme": "",
-            "background_style": "primary"
+            "custom_liquid": "<style>\n.mengenrabatt-wrapper {\n  margin-top: 1rem;\n}\n\n.mengenrabatt-grid {\n  display: flex;\n  gap: 0.75rem;\n  flex-wrap: wrap;\n  margin-top: 0.4rem;\n}\n\n.mengenrabatt-option {\n  border: 2px solid #ccc;\n  border-radius: 9999px;\n  padding: 0.8rem 1.6rem;\n  cursor: pointer;\n  min-width: 140px;\n  text-align: center;\n  transition: all 0.2s ease-in-out;\n  font-weight: 600;\n  font-size: 1.2rem;\n  background-color: white;\n  line-height: 1.4;\n}\n\n.mengenrabatt-option:hover {\n  border-color: #005bbb;\n  box-shadow: 0 0 5px rgba(0, 91, 187, 0.1);\n}\n\n.mengenrabatt-option.active {\n  background-color: #005bbb;\n  color: white;\n  border-color: #005bbb;\n}\n\n.mengenrabatt-option .menge {\n  font-size: 1.25rem;\n  font-weight: 700;\n}\n\n.mengenrabatt-option .rabatt {\n  font-size: 1.1rem;\n  font-weight: 500;\n  opacity: 0.95;\n  margin-top: 0.25rem;\n}\n</style>\n\n<div class=\"mengenrabatt-wrapper\" id=\"mengenrabatt\">\n  <div class=\"mengenrabatt-grid\">\n    <div class=\"mengenrabatt-option active\" data-qty=\"32\">\n      <div class=\"menge\">32 Stück</div>\n      <div class=\"rabatt\">–3 % Rabatt</div>\n    </div>\n    <div class=\"mengenrabatt-option\" data-qty=\"64\">\n      <div class=\"menge\">64 Stück</div>\n      <div class=\"rabatt\">–5 % Rabatt</div>\n    </div>\n    <div class=\"mengenrabatt-option\" data-qty=\"288\">\n      <div class=\"menge\">288 Stück</div>\n      <div class=\"rabatt\">–10 % Rabatt</div>\n    </div>\n  </div>\n</div>\n\n<script>\n  document.addEventListener('DOMContentLoaded', function () {\n    const options = document.querySelectorAll('.mengenrabatt-option');\n    const qtyInput = document.querySelector('input[name=\"quantity\"]');\n\n    options.forEach(option => {\n      option.addEventListener('click', () => {\n        options.forEach(o => o.classList.remove('active'));\n        option.classList.add('active');\n        const qty = option.getAttribute('data-qty');\n        if (qtyInput) {\n          qtyInput.value = qty;\n        }\n      });\n    });\n\n    const defaultOption = document.querySelector('.mengenrabatt-option.active');\n    if (defaultOption && qtyInput) {\n      qtyInput.value = defaultOption.getAttribute('data-qty');\n    }\n  });\n</script>"
           }
         },
         "description_PhHTUJ": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         },
         "price": {
           "type": "price",
           "settings": {}
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
         },
         "8962f2cd-be21-449a-bedd-946a516310ae": {
           "type": "icon-with-text",
@@ -77,92 +61,17 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
           }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "d075259a-7e9c-4bed-8f1a-0c40d3660dc3": {
-          "type": "complementary",
-          "disabled": true,
-          "settings": {
-            "block_heading": "Für's optimale Ergebnis",
-            "make_collapsible_row": true,
-            "icon": "price_tag",
-            "product_list_limit": 10,
-            "products_per_page": 3,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": true
-          }
-        },
-        "collapsible_tab_RnenQw": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "10m²",
-            "icon": "box",
-            "content": "<p>2 x Spachtelmasse 10 kg<br/>1 x Grundierung 2 L<br/>1 x Imprägnierung 2 L<br/>10 x Schalungsfolien</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_eRY9bm": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "15m²",
-            "icon": "box",
-            "content": "<p>3 x Spachtelmasse 10 kg<br/>2 x Grundierung 2 L<br/>1 x Imprägnierung 2 L<br/>15 x Schalungsfolien</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_HAaiVm": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "20m²",
-            "icon": "box",
-            "content": "<p>4 x Spachtelmasse 10 kg<br/>2 x Grundierung 2 L<br/>1 x Imprägnierung 2 L<br/>20 x Schalungsfolien</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_bhtg6T": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "25m²",
-            "icon": "box",
-            "content": "<p>5 x Spachtelmasse 10 kg<br/>3 x Grundierung 2 L<br/>2 x Imprägnierung 2 L<br/>25 x Schalungsfolien</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_MfLaVB": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "30m²",
-            "icon": "box",
-            "content": "<p>6 x Spachtelmasse 10 kg<br/>3 x Grundierung 2 L<br/>2 x Imprägnierung 2 L<br/>30 x Schalungsfolien</p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
-        "6e6f5b3f-4c5c-4faa-be73-d9bfea448775",
         "title",
-        "caption",
-        "area",
+        "custom_liquid_PtPw79",
+        "custom_liquid_XbGC9H",
         "description_PhHTUJ",
         "price",
-        "variant_picker",
         "8962f2cd-be21-449a-bedd-946a516310ae",
         "quantity_selector",
-        "buy_buttons",
-        "share",
-        "d075259a-7e9c-4bed-8f1a-0c40d3660dc3",
-        "collapsible_tab_RnenQw",
-        "collapsible_tab_eRY9bm",
-        "collapsible_tab_HAaiVm",
-        "collapsible_tab_bhtg6T",
-        "collapsible_tab_MfLaVB"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -177,100 +86,6 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
-      }
-    },
-    "rich_text_KAnJzQ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_waXPWQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.custom.titel_fuer_spalte.value }}",
-            "heading_size": "h1"
-          }
-        },
-        "text_A8NKe7": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.custom.warum_dieses_paket_richtext | metafield_tag }}"
-          }
-        }
-      },
-      "block_order": [
-        "heading_waXPWQ",
-        "text_A8NKe7"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "multicolumn_full_button_BDJbDP": {
-      "type": "multicolumn-full-button",
-      "blocks": {
-        "column_pEdHmW": {
-          "type": "column",
-          "settings": {
-            "title": "Alles mit dabei",
-            "text": "<p>Mit diesem Paket wirst du nichts vergessen und bist rundum versorgt.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_VFgrFr": {
-          "type": "column",
-          "settings": {
-            "title": "Best Preis Garantie",
-            "text": "<p>Beim Gesamtpaket können wir dir einen viel besseren Preis anbieten, als im Einzelkauf.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_cFWyBK": {
-          "type": "column",
-          "settings": {
-            "title": "Passende Mengen",
-            "text": "<p>Dank abgestimmter Mengen hast du von nichts zu viel - oder zu wenig.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_txHMYb": {
-          "type": "column",
-          "settings": {
-            "title": "Alles Abgestimmt",
-            "text": "<p>Wir versprechen dir ein perfektes Ergebnis, weil alles aufeinander abestimmt ist.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_pEdHmW",
-        "column_VFgrFr",
-        "column_cFWyBK",
-        "column_txHMYb"
-      ],
-      "custom_css": [],
-      "settings": {
-        "title": "Vorteile dieses Pakets",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "accent-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "video_RNcR4K": {
@@ -394,16 +209,6 @@
         "padding_bottom": 36
       }
     },
-    "0374e570-2362-4936-8a0d-7e5fbb32bd7a": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<div class=\"page-width\"><h2>Produktbeschreibung zu {{product.title}}</h2>\n{{ product.description }}\n</div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "featured_collection_UxEGzF": {
       "type": "featured-collection",
       "settings": {
@@ -432,6 +237,16 @@
         "padding_bottom": 36
       }
     },
+    "0374e570-2362-4936-8a0d-7e5fbb32bd7a": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\"><h2>Produktbeschreibung zu {{product.title}}</h2>\n{{ product.description }}\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -454,12 +269,10 @@
   },
   "order": [
     "main",
-    "rich_text_KAnJzQ",
-    "multicolumn_full_button_BDJbDP",
     "video_RNcR4K",
     "multirow_6thDVN",
-    "0374e570-2362-4936-8a0d-7e5fbb32bd7a",
     "featured_collection_UxEGzF",
+    "0374e570-2362-4936-8a0d-7e5fbb32bd7a",
     "related-products"
   ]
 }
