@@ -24,6 +24,7 @@
         },
         "announcement_GkQKLm": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "JETZT 5% auf Betonoptik sparen | Rabattcode: Frühling5",
             "link": ""
@@ -34,6 +35,7 @@
         "472bf042-0f29-4a87-8900-77365f9fb58d",
         "announcement_GkQKLm"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "accent-2",
         "show_line_separator": true,
