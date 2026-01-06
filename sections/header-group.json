@@ -16,6 +16,7 @@
       "blocks": {
         "472bf042-0f29-4a87-8900-77365f9fb58d": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Achtung: Bestellungen ab 23.12. werden erst ab 05.01. versendet!",
             "link": ""
