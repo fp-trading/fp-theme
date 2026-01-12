@@ -145,6 +145,7 @@
         },
         "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-quantity_selector-1": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-buy_buttons-1": {
