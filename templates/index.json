@@ -151,7 +151,7 @@
         "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-buy_buttons-1": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
         },
@@ -183,6 +183,77 @@
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_iEPG74": {
+      "type": "featured-product",
+      "blocks": {
+        "text_LxcjbT": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_zVaPnh": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_7iMir8": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_TJfqQL": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_T9wa9P": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_YUdXmg": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_xkFzfi": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_LxcjbT",
+        "title_zVaPnh",
+        "price_7iMir8",
+        "variant_picker_TJfqQL",
+        "quantity_selector_T9wa9P",
+        "buy_buttons_YUdXmg",
+        "share_xkFzfi"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "goldband",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -712,6 +783,7 @@
     "0f8ad26e-60a4-4eb4-b428-1ae2266d011f",
     "image_with_text_MGKfGW",
     "7aece131-acb4-405b-ab99-79a3e7e4e7ee",
+    "featured_product_iEPG74",
     "multicolumn_full_button_4VwUEj",
     "video_RdQhDF",
     "4074b986-155a-41b0-bae7-cabbc33f16b0",
