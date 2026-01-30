@@ -156,7 +156,7 @@
         "settings": {
           "url_key": "wandprofi-shop.com",
           "lang": "de",
-          "enable_syndication": true
+          "enable_syndication": false
         }
       }
     },
