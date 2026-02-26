@@ -62,6 +62,7 @@
         "template--19238953877836__0f8ad26e-60a4-4eb4-b428-1ae2266d011f-1689600360a7f7d6c7-1",
         "template--19238953877836__0f8ad26e-60a4-4eb4-b428-1ae2266d011f-1689600360a7f7d6c7-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/wp_portrait.webp",
         "height": "small",
@@ -133,6 +134,12 @@
             "heading_size": "h2"
           }
         },
+        "reviews_io_reviewsio_rating_bar_cHMHmk": {
+          "type": "shopify://apps/reviews-io/blocks/reviewsio-rating-bar/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": ""
+          }
+        },
         "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-price-1": {
           "type": "price",
           "settings": {}
@@ -165,6 +172,7 @@
       },
       "block_order": [
         "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-title-1",
+        "reviews_io_reviewsio_rating_bar_cHMHmk",
         "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-price-1",
         "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-variant_picker-1",
         "template--19238953877836__7aece131-acb4-405b-ab99-79a3e7e4e7ee-quantity_selector-1",
@@ -242,6 +250,89 @@
         "padding_bottom": 60
       }
     },
+    "4074b986-155a-41b0-bae7-cabbc33f16b0": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19238953877836__4074b986-155a-41b0-bae7-cabbc33f16b0-1689172567b2546a13-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/yt_logo_rgb_light.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b496dd42-5ba9-429a-99e0-e6e25db98037": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/trust_bauen-wohnen.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "687893f7-b302-4951-9f61-cc1a7582beb6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/SWR_4c_2018.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "4063eb3d-f19f-41dc-8865-c503f1088939": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/RTL_logo_collection_11_rgb.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19238953877836__4074b986-155a-41b0-bae7-cabbc33f16b0-1689172567b2546a13-0",
+        "b496dd42-5ba9-429a-99e0-e6e25db98037",
+        "687893f7-b302-4951-9f61-cc1a7582beb6",
+        "4063eb3d-f19f-41dc-8865-c503f1088939"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "video_RdQhDF": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/Betonoptik Startseite 16x9.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "Betonoptik im Wohnzimmer, Treppenhaus oder am Kamin.",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_product_iEPG74": {
       "type": "featured-product",
       "blocks": {
@@ -311,89 +402,6 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "video_RdQhDF": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify://files/videos/Betonoptik Startseite 16x9.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "Betonoptik im Wohnzimmer, Treppenhaus oder am Kamin.",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "4074b986-155a-41b0-bae7-cabbc33f16b0": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19238953877836__4074b986-155a-41b0-bae7-cabbc33f16b0-1689172567b2546a13-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/yt_logo_rgb_light.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "b496dd42-5ba9-429a-99e0-e6e25db98037": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/trust_bauen-wohnen.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "687893f7-b302-4951-9f61-cc1a7582beb6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/SWR_4c_2018.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "4063eb3d-f19f-41dc-8865-c503f1088939": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/RTL_logo_collection_11_rgb.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19238953877836__4074b986-155a-41b0-bae7-cabbc33f16b0-1689172567b2546a13-0",
-        "b496dd42-5ba9-429a-99e0-e6e25db98037",
-        "687893f7-b302-4951-9f61-cc1a7582beb6",
-        "4063eb3d-f19f-41dc-8865-c503f1088939"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "accent-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 24,
-        "padding_bottom": 24
       }
     },
     "featured_product_LEUHef": {
