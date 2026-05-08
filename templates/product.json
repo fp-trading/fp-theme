@@ -48,15 +48,6 @@
             "picker_type": "button"
           }
         },
-        "text_ewTFUN": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.custom.grose.value }}",
-            "text_style": "body",
-            "second_column": false,
-            "color_scheme": "background-1"
-          }
-        },
         "8962f2cd-be21-449a-bedd-946a516310ae": {
           "type": "icon-with-text",
           "settings": {
@@ -67,6 +58,15 @@
             "heading_2": "Versandkostenfrei ab {{ product.metafields.general.versandkosten.value }} €",
             "icon_3": "none",
             "heading_3": ""
+          }
+        },
+        "text_ewTFUN": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.grose.value }}",
+            "text_style": "body",
+            "second_column": false,
+            "color_scheme": "background-1"
           }
         },
         "quantity_selector": {
@@ -120,8 +120,8 @@
         "area",
         "price",
         "variant_picker",
-        "text_ewTFUN",
         "8962f2cd-be21-449a-bedd-946a516310ae",
+        "text_ewTFUN",
         "quantity_selector",
         "buy_buttons",
         "share",
