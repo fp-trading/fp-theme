@@ -299,6 +299,118 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_Pb3Are": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_kGqLJ4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wandprofi_Betonoptik__Schritt_1_Abkleben.jpg",
+            "title": "1. Vorbereiten",
+            "text": "<p>Sorgfältiges Abkleben spart später Zeit und sorgt für saubere Kanten.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EBTbm4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wandprofi_Betonoptik__Schritt_2_Grundieren.jpg",
+            "title": "2. Grundieren",
+            "text": "<p>Sorgt für die optimale Haftung und ein gleichmäßiges Endergebnis. Empfohlene Trockungszeit ca. 12 Stunden.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zcNQ3n": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wandprofi_Betonoptik__Schritt_3_Zuschneiden_Folie.jpg",
+            "title": "3. Zuschneiden",
+            "text": "<p>Optional können die Folien auch überlappt werden und kreieren so hauch dünne Schalungsfugen.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PFyExq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wandprofi_Betonoptik__Schritt_4_Anmischen.jpg",
+            "title": "4. Anrühren",
+            "text": "<p>Das Material ist bei 20°C und 65% relativer Luftfeuchtigkeit ca. 60 Minuten lang verarbeitbar.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ig6LTQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wandprofi_Betonoptik__Schritt_4_Auftragen.jpg",
+            "title": "5. Spachteln",
+            "text": "<p>Die Spachtelmasse mit einer Zahnkelle auf die Wand auftragen und anschließend glatt ziehen.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DpbLQD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wandprofi_Betonoptik_Schritt_6_Folieren.webp",
+            "title": "6. Folieren",
+            "text": "<p>Mit einem Spachtel die Folie an die glatte Spachtelmasse anpressen und dabei Luftblasen entfernen.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DzDUrU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wandprofi_Betonoptik__Schritt_6_Trocknen_lassen.jpg",
+            "title": "7. Trocknen",
+            "text": "<p>Fertig gespachtelte Fläche mindestens 8 und maximal 24 Stunden trocknen lassen. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_C6AJBB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Wandprofi_Betonoptik__Schritt_7_Impraegnierung.jpg",
+            "title": "8. Imprägnieren",
+            "text": "<p>Schützt die Oberfläche und macht sie widerstandsfähiger.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_kGqLJ4",
+        "column_EBTbm4",
+        "column_zcNQ3n",
+        "column_PFyExq",
+        "column_ig6LTQ",
+        "column_DpbLQD",
+        "column_DzDUrU",
+        "column_C6AJBB"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "So wird es gemacht",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multirow_6thDVN": {
       "type": "multirow",
       "blocks": {
@@ -389,6 +501,7 @@
         "row_XHPYEV",
         "row_6FyVnF"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "small",
         "desktop_image_width": "medium",
@@ -469,6 +582,7 @@
     "rich_text_KAnJzQ",
     "multicolumn_full_button_BDJbDP",
     "video_RNcR4K",
+    "multicolumn_Pb3Are",
     "multirow_6thDVN",
     "0374e570-2362-4936-8a0d-7e5fbb32bd7a",
     "featured_collection_UxEGzF",
