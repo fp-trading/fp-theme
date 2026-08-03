@@ -173,7 +173,7 @@
         "gallery_layout": "thumbnail",
         "media_position": "left",
         "image_zoom": "lightbox",
-        "mobile_thumbnails": "columns",
+        "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
@@ -390,7 +390,7 @@
         "row_6FyVnF"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
