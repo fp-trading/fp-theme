@@ -186,12 +186,11 @@
           "preselect_variant": false
         }
       },
-      "4571859552318407796": {
-        "type": "shopify://apps/glo-color-swatch/blocks/app-embed-block/4394f710-096c-4021-bbde-8ebb26057c11",
-        "disabled": true,
+      "15351435345818755577": {
+        "type": "shopify://apps/pandectes-gdpr/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+        "disabled": false,
         "settings": {
-          "customCssGCW": "",
-          "customJsGCW": ""
+          "fast_load": false
         }
       }
     },
